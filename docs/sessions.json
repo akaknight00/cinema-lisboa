@@ -1,6 +1,17 @@
 {
- "updated": "2026-10-07T12:04+00:00",
+ "updated": "2026-10-07T14:43+00:00",
  "sessions": [
+  {
+   "date": "2026-10-07",
+   "time": "12:30",
+   "title": "O Sétimo Continente (reposição)",
+   "year": "1989",
+   "note": "",
+   "url": "https://filmspot.pt/filme/der-siebente-kontinent-32761/",
+   "venue": "Nimas",
+   "source": "filmspot-nimas",
+   "id": "a9da6f5646"
+  },
   {
    "date": "2026-10-07",
    "time": "13:15",
@@ -11,6 +22,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "2a5f9438d4"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:15",
+   "title": "Um Fantasma Útil",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/pee-chai-dai-ka-1364904/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "25cab61e09"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:20",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "8264646d92"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:20",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "d91c28ee84"
   },
   {
    "date": "2026-10-07",
@@ -25,6 +69,127 @@
   },
   {
    "date": "2026-10-07",
+   "time": "13:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "6409f232b5"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:25",
+   "title": "Os Rivais de Amziah King",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-rivals-of-amziah-king-1124142/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "eb65a90cff"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:30",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "32a9cee826"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:40",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3aa13446c6"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "7a115ebb3f"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "14:05",
+   "title": "A Revolta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-uprising-977942/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "9d77d83511"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "14:20",
+   "title": "Crash (reposição)",
+   "year": "1996",
+   "note": "",
+   "url": "https://filmspot.pt/filme/crash-884/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "901204c094"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "14:30",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "Cinema Ideal",
+   "source": "filmspot-cinema-ideal",
+   "id": "c583228320"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "14:30",
+   "title": "O Castigo da Justiça (reposição)",
+   "year": "1950",
+   "note": "",
+   "url": "https://filmspot.pt/filme/where-the-sidewalk-ends-17221/",
+   "venue": "Nimas",
+   "source": "filmspot-nimas",
+   "id": "68eb8d3aae"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "14:30",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "4243a097aa"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:00",
+   "title": "Homem-Aranha: Um Novo Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/spider-man-brand-new-day-969681/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3fdde36a52"
+  },
+  {
+   "date": "2026-10-07",
    "time": "15:10",
    "title": "Natal Amargo",
    "year": "2026",
@@ -36,6 +201,17 @@
   },
   {
    "date": "2026-10-07",
+   "time": "15:10",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3d34434c6c"
+  },
+  {
+   "date": "2026-10-07",
    "time": "15:15",
    "title": "Verity",
    "year": "2026",
@@ -44,6 +220,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "ad97d518c1"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:20",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "87efc1b764"
   },
   {
    "date": "2026-10-07",
@@ -59,13 +246,35 @@
   {
    "date": "2026-10-07",
    "time": "15:30",
-   "title": "Viva Maria!",
-   "year": "",
-   "note": "Lado BB",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/185990-lado_bb_viva_maria-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "2dd62aca75"
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2eab2af1e2"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2adfadb536"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:30",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "2423f3dd75"
   },
   {
    "date": "2026-10-07",
@@ -80,6 +289,182 @@
   },
   {
    "date": "2026-10-07",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "c9b0032ad6"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:50",
+   "title": "Homem-Aranha: Um Novo Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/spider-man-brand-new-day-969681/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "94ecebd2c4"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "454fb58675"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "389a0f64e3"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "15:55",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "00fb05aecf"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:05",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "2fa2152926"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:10",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "c13b54d4fb"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:15",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema Ideal",
+   "source": "filmspot-cinema-ideal",
+   "id": "45c8f784dc"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:15",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "32b123ad18"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:20",
+   "title": "Os Rivais de Amziah King",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-rivals-of-amziah-king-1124142/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "b516008b77"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:25",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "6a63ab5701"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:30",
+   "title": "Rocco e os Seus Irmãos (cópia digial restaurada)",
+   "year": "1960",
+   "note": "",
+   "url": "https://filmspot.pt/filme/rocco-e-i-suoi-fratelli-8422/",
+   "venue": "Nimas",
+   "source": "filmspot-nimas",
+   "id": "a056186e2d"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:40",
+   "title": "Heart of the Beast -  Heróis Inseparáveis",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/heart-of-the-beast-1263337/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "a43027e0a9"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:45",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "cdcff8b383"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:50",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3da141a699"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "16:55",
+   "title": "Sacrifício",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/sacrifice-1284186/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "bb68316c96"
+  },
+  {
+   "date": "2026-10-07",
    "time": "17:25",
    "title": "Natal Amargo",
    "year": "2026",
@@ -88,6 +473,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "3c474607f4"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "85eb661663"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "146f674a71"
   },
   {
    "date": "2026-10-07",
@@ -102,6 +509,17 @@
   },
   {
    "date": "2026-10-07",
+   "time": "18:15",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "b57e3a4b44"
+  },
+  {
+   "date": "2026-10-07",
    "time": "18:20",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -110,6 +528,61 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "df78c5d6eb"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e8a2cf1e94"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "40026490f8"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:30",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "Cinema Ideal",
+   "source": "filmspot-cinema-ideal",
+   "id": "8fbf8d7ded"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8bb8e8b48a"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:45",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "34bc836d87"
   },
   {
    "date": "2026-10-07",
@@ -124,6 +597,61 @@
   },
   {
    "date": "2026-10-07",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9e946b19b8"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:50",
+   "title": "Adolescência, Sexo e Morte no Acampamento Miasma",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/teenage-sex-and-death-at-camp-miasma-1240889/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "517d86f672"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "afd4d4a8a7"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:55",
+   "title": "A Revolta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-uprising-977942/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "4aeba91857"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:00",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "5914a28fad"
+  },
+  {
+   "date": "2026-10-07",
    "time": "19:00",
    "title": "O Visconde + Tiaga ou a Reecarnação Deliciosa",
    "year": "",
@@ -132,6 +660,83 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "9993484486"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:00",
+   "title": "Um Fantasma Útil",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/pee-chai-dai-ka-1364904/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "2289f86af2"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:05",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "5a4db4fcd9"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:05",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "245db1d9ed"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:10",
+   "title": "Heart of the Beast -  Heróis Inseparáveis",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/heart-of-the-beast-1263337/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "97150518f9"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:15",
+   "title": "O Convite",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-invite-950028/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "aeef09da6c"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b781cadc38"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:20",
+   "title": "Crash (reposição)",
+   "year": "1996",
+   "note": "",
+   "url": "https://filmspot.pt/filme/crash-884/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "a44f12dff6"
   },
   {
    "date": "2026-10-07",
@@ -157,6 +762,17 @@
   },
   {
    "date": "2026-10-07",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2a497a2b10"
+  },
+  {
+   "date": "2026-10-07",
    "time": "20:00",
    "title": "Fuck the Polis",
    "year": "2025",
@@ -168,6 +784,105 @@
   },
   {
    "date": "2026-10-07",
+   "time": "20:00",
+   "title": "Fuck the Polis",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/fuck-the-polis-1493022/",
+   "venue": "Cinema Ideal",
+   "source": "filmspot-cinema-ideal",
+   "id": "f683eb63ee"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "20:00",
+   "title": "O Tempo do Lobo (reposição)",
+   "year": "2003",
+   "note": "",
+   "url": "https://filmspot.pt/filme/le-temps-du-loup-24190/",
+   "venue": "Nimas",
+   "source": "filmspot-nimas",
+   "id": "8e80d69135"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "719c865049"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:00",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "7067ea39a7"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:00",
+   "title": "NAZA",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/naza-1755291/",
+   "venue": "Cinema Fernando Lopes",
+   "source": "filmspot-cinema-fernando-lopes",
+   "id": "b4c5d57b90"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "179c8700ba"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "5ab17c459c"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:15",
+   "title": "Hope",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/ho-peu-1058424/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "75f81f2593"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:15",
+   "title": "Queen Budapeste",
+   "year": "1986",
+   "note": "",
+   "url": "https://filmspot.pt/filme/queen-budapest-142773/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "30b97e10b6"
+  },
+  {
+   "date": "2026-10-07",
    "time": "21:20",
    "title": "Digger",
    "year": "2026",
@@ -176,6 +891,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "a2d42d7d04"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:20",
+   "title": "Vingadores: Endgame (reposição)",
+   "year": "2019",
+   "note": "",
+   "url": "https://filmspot.pt/filme/avengers-endgame-299534/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3c21337c0a"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:25",
+   "title": "Adolescência, Sexo e Morte no Acampamento Miasma",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/teenage-sex-and-death-at-camp-miasma-1240889/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "eee55c7a8b"
   },
   {
    "date": "2026-10-07",
@@ -191,6 +928,28 @@
   {
    "date": "2026-10-07",
    "time": "21:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "94deaf7fda"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:30",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema Ideal",
+   "source": "filmspot-cinema-ideal",
+   "id": "9d0066e1ed"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:30",
    "title": "A Simple Favor",
    "year": "",
    "note": "Lado BB",
@@ -198,6 +957,28 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "c3176546c6"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "9c5fb7c41b"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:35",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "907296949a"
   },
   {
    "date": "2026-10-07",
@@ -212,6 +993,28 @@
   },
   {
    "date": "2026-10-07",
+   "time": "21:40",
+   "title": "Heart of the Beast -  Heróis Inseparáveis",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/heart-of-the-beast-1263337/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "41a5aa3572"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "3449d765ba"
+  },
+  {
+   "date": "2026-10-07",
    "time": "21:45",
    "title": "Natal Amargo",
    "year": "2026",
@@ -220,6 +1023,94 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "ddf8e9bc59"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:45",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "12f990e25f"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "f69a53772c"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:50",
+   "title": "O Convite",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-invite-950028/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "a4875b9079"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:50",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "e8fb5802c9"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:55",
+   "title": "Adolescência, Sexo e Morte no Acampamento Miasma",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/teenage-sex-and-death-at-camp-miasma-1240889/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1094213b9d"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:55",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "f9fb57c8b2"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "22:00",
+   "title": "O Estrangeiro (reposição)",
+   "year": "1967",
+   "note": "",
+   "url": "https://filmspot.pt/filme/lo-straniero-31332/",
+   "venue": "Nimas",
+   "source": "filmspot-nimas",
+   "id": "1b03694380"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "22:00",
+   "title": "Sacrifício",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/sacrifice-1284186/",
+   "venue": "UCI El Corte Inglés",
+   "source": "filmspot-uci-el-corte-ingles",
+   "id": "5dfdbc3945"
   },
   {
    "date": "2026-10-08",
@@ -278,6 +1169,28 @@
   },
   {
    "date": "2026-10-08",
+   "time": "15:15",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2f476e32a7"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "175428f9ca"
+  },
+  {
+   "date": "2026-10-08",
    "time": "15:20",
    "title": "Noite e Dia",
    "year": "2026",
@@ -286,6 +1199,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "ee6dbc48c5"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:25",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ae8caaa527"
   },
   {
    "date": "2026-10-08",
@@ -322,6 +1246,50 @@
   },
   {
    "date": "2026-10-08",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "af200c32a3"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e97ed97aa1"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "95205660ab"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1fdb622277"
+  },
+  {
+   "date": "2026-10-08",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -330,6 +1298,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "9cce390d44"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "68b9b61552"
   },
   {
    "date": "2026-10-08",
@@ -344,6 +1323,17 @@
   },
   {
    "date": "2026-10-08",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1da2897110"
+  },
+  {
+   "date": "2026-10-08",
    "time": "17:50",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -352,6 +1342,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "aea67e0791"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "eeb5eb3494"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "52936f0c68"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "dda4b029c2"
   },
   {
    "date": "2026-10-08",
@@ -366,6 +1389,17 @@
   },
   {
    "date": "2026-10-08",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b29848e1c3"
+  },
+  {
+   "date": "2026-10-08",
    "time": "19:00",
    "title": "O Defunto + O Canto da Sereia",
    "year": "",
@@ -374,6 +1408,17 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "ad555e9fb9"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "19:10",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "332e20160f"
   },
   {
    "date": "2026-10-08",
@@ -410,6 +1455,39 @@
   },
   {
    "date": "2026-10-08",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "62cd05b09d"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3a4d0eefb8"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "0079ee492f"
+  },
+  {
+   "date": "2026-10-08",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -418,6 +1496,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "caacc41cd3"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d336777c57"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "10560a3ee2"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e6c78705ae"
   },
   {
    "date": "2026-10-08",
@@ -462,6 +1573,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "5c52986a32"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:45",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "df5b265359"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:50",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "c3675272ed"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4ad84a7932"
   },
   {
    "date": "2026-10-09",
@@ -520,6 +1664,17 @@
   },
   {
    "date": "2026-10-09",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4fe68f2650"
+  },
+  {
+   "date": "2026-10-09",
    "time": "15:20",
    "title": "Noite e Dia",
    "year": "2026",
@@ -528,6 +1683,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "973ea65855"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:20",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "f55b70c998"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:25",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "67af82bc4b"
   },
   {
    "date": "2026-10-09",
@@ -564,6 +1741,50 @@
   },
   {
    "date": "2026-10-09",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "134f2be1fb"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a1a767b892"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b7ea76a201"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ec68832163"
+  },
+  {
+   "date": "2026-10-09",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -572,6 +1793,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "0a89a08489"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "cda5b44b6c"
   },
   {
    "date": "2026-10-09",
@@ -586,6 +1818,17 @@
   },
   {
    "date": "2026-10-09",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2155fdefd2"
+  },
+  {
+   "date": "2026-10-09",
    "time": "17:50",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -594,6 +1837,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "9a2c491d1d"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "fb4e3d066f"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2d2bea0ed7"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "93d3789422"
   },
   {
    "date": "2026-10-09",
@@ -608,6 +1884,17 @@
   },
   {
    "date": "2026-10-09",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1e18bcee0b"
+  },
+  {
+   "date": "2026-10-09",
    "time": "19:00",
    "title": "L&#34;Homme Qui a Perdu Son Ombre",
    "year": "",
@@ -616,6 +1903,28 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "cdf11b694a"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:10",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a48dd981a2"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "41d783664c"
   },
   {
    "date": "2026-10-09",
@@ -652,6 +1961,28 @@
   },
   {
    "date": "2026-10-09",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "93ca6813f8"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e5e9072887"
+  },
+  {
+   "date": "2026-10-09",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -660,6 +1991,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "2b64b2b30d"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ea38233911"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4d01e523c8"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4180b3d8cc"
   },
   {
    "date": "2026-10-09",
@@ -706,6 +2070,39 @@
    "id": "c04c8cd6be"
   },
   {
+   "date": "2026-10-09",
+   "time": "21:50",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1e6a9465e9"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:55",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ff56418f84"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3fc6a6968b"
+  },
+  {
    "date": "2026-10-10",
    "time": "11:15",
    "title": "A Ovelha Choné: Trapalhada na Quinta",
@@ -718,6 +2115,28 @@
   },
   {
    "date": "2026-10-10",
+   "time": "11:15",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4933bce5e8"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "11:20",
+   "title": "Patrulha Pata: O Filme dos Dinossauros",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/paw-patrol-the-dino-movie-1185806/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9cc762021d"
+  },
+  {
+   "date": "2026-10-10",
    "time": "11:25",
    "title": "A Ilha Esquecida",
    "year": "2026",
@@ -726,6 +2145,50 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "324d0e799e"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "11:35",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d3214d6b8f"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:00",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3811dd77d3"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:00",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8ac82cae4a"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "68ed0ed819"
   },
   {
    "date": "2026-10-10",
@@ -762,6 +2225,28 @@
   },
   {
    "date": "2026-10-10",
+   "time": "13:20",
+   "title": "Patrulha Pata: O Filme dos Dinossauros",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/paw-patrol-the-dino-movie-1185806/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "63b387c006"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "17df0e2391"
+  },
+  {
+   "date": "2026-10-10",
    "time": "13:25",
    "title": "Fuck the Polis",
    "year": "2025",
@@ -770,6 +2255,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "dfcc823436"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:25",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "cf4f2af1b9"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:35",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b534efacca"
   },
   {
    "date": "2026-10-10",
@@ -795,6 +2302,17 @@
   },
   {
    "date": "2026-10-10",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "6909daa433"
+  },
+  {
+   "date": "2026-10-10",
    "time": "15:20",
    "title": "A Ilha Esquecida",
    "year": "2026",
@@ -817,6 +2335,28 @@
   },
   {
    "date": "2026-10-10",
+   "time": "15:20",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "24ff925dd6"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:25",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d3d480ad7d"
+  },
+  {
+   "date": "2026-10-10",
    "time": "15:30",
    "title": "Primavera - As Quatro Estações",
    "year": "2025",
@@ -825,6 +2365,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "04cdaadb72"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:30",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "994fd6d881"
   },
   {
    "date": "2026-10-10",
@@ -839,6 +2390,50 @@
   },
   {
    "date": "2026-10-10",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d3622a0630"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "93054b5ddd"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "604cdf736e"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "f062575f05"
+  },
+  {
+   "date": "2026-10-10",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -850,6 +2445,17 @@
   },
   {
    "date": "2026-10-10",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "406f5750eb"
+  },
+  {
+   "date": "2026-10-10",
    "time": "17:20",
    "title": "Santo António, O Casamenteiro de Lisboa",
    "year": "2026",
@@ -858,6 +2464,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "da1673c348"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "be6ea96ee2"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1259f701dd"
   },
   {
    "date": "2026-10-10",
@@ -883,6 +2511,39 @@
   },
   {
    "date": "2026-10-10",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8df15ac7a5"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "beb7b38392"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "0fa0833a94"
+  },
+  {
+   "date": "2026-10-10",
    "time": "18:50",
    "title": "Santo António, O Casamenteiro de Lisboa",
    "year": "2026",
@@ -891,6 +2552,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "4f029bf23e"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d32eeae8cc"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:10",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a70d3a38e5"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "6466c0708a"
   },
   {
    "date": "2026-10-10",
@@ -927,6 +2621,39 @@
   },
   {
    "date": "2026-10-10",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9d06f4cd47"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "0699a0a87c"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "023af65be7"
+  },
+  {
+   "date": "2026-10-10",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -935,6 +2662,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "19e2a8c3b9"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "764a71c12a"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "45efb1590a"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "49b60f8917"
   },
   {
    "date": "2026-10-10",
@@ -981,6 +2741,50 @@
    "id": "1bbe620178"
   },
   {
+   "date": "2026-10-10",
+   "time": "21:45",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "dddf438caa"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:50",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2629fff788"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:55",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "85eaafd2a6"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a1f6b86790"
+  },
+  {
    "date": "2026-10-11",
    "time": "11:15",
    "title": "A Ovelha Choné: Trapalhada na Quinta",
@@ -993,6 +2797,28 @@
   },
   {
    "date": "2026-10-11",
+   "time": "11:15",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "0326b40b9b"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "11:20",
+   "title": "Patrulha Pata: O Filme dos Dinossauros",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/paw-patrol-the-dino-movie-1185806/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1a0745954d"
+  },
+  {
+   "date": "2026-10-11",
    "time": "11:25",
    "title": "A Ilha Esquecida",
    "year": "2026",
@@ -1001,6 +2827,50 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "30206b19f9"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "11:35",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "346152eb2b"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "13:00",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "cf780fff99"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "13:00",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9510344bc6"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "13:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "227b9a4fed"
   },
   {
    "date": "2026-10-11",
@@ -1037,6 +2907,28 @@
   },
   {
    "date": "2026-10-11",
+   "time": "13:20",
+   "title": "Patrulha Pata: O Filme dos Dinossauros",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/paw-patrol-the-dino-movie-1185806/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1c8e68120c"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "13:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "58eb8894ef"
+  },
+  {
+   "date": "2026-10-11",
    "time": "13:25",
    "title": "Fuck the Polis",
    "year": "2025",
@@ -1048,6 +2940,28 @@
   },
   {
    "date": "2026-10-11",
+   "time": "13:25",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "eb353dd1e9"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "13:35",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1bcb2265b5"
+  },
+  {
+   "date": "2026-10-11",
    "time": "15:00",
    "title": "Natal Amargo",
    "year": "2026",
@@ -1056,6 +2970,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "20eced128a"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a6d6079235"
   },
   {
    "date": "2026-10-11",
@@ -1081,6 +3006,28 @@
   },
   {
    "date": "2026-10-11",
+   "time": "15:20",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "7bede0d3e9"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:25",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "171780415d"
+  },
+  {
+   "date": "2026-10-11",
    "time": "15:30",
    "title": "Primavera - As Quatro Estações",
    "year": "2025",
@@ -1089,6 +3036,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "3c0088ec96"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:30",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a6b794ed4e"
   },
   {
    "date": "2026-10-11",
@@ -1103,6 +3061,50 @@
   },
   {
    "date": "2026-10-11",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8453b93c40"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e09ec5a8f5"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "34bb1dbded"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "15:55",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8d4be7b71b"
+  },
+  {
+   "date": "2026-10-11",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -1111,6 +3113,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "96810e42e0"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "48f0644fdd"
   },
   {
    "date": "2026-10-11",
@@ -1125,6 +3138,28 @@
   },
   {
    "date": "2026-10-11",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "20fc9cf9eb"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e284d288f4"
+  },
+  {
+   "date": "2026-10-11",
    "time": "17:50",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -1136,6 +3171,39 @@
   },
   {
    "date": "2026-10-11",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "f6021e2015"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "01cd2f4722"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e62bd6f1ec"
+  },
+  {
+   "date": "2026-10-11",
    "time": "18:50",
    "title": "Santo António, O Casamenteiro de Lisboa",
    "year": "2026",
@@ -1144,6 +3212,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "6bba7e38d4"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d0a62380d0"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "19:10",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e8372ed5e2"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "787d1a28b3"
   },
   {
    "date": "2026-10-11",
@@ -1169,6 +3270,39 @@
   },
   {
    "date": "2026-10-11",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "17e1bcfa91"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "277afb28a5"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b5e807271a"
+  },
+  {
+   "date": "2026-10-11",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -1177,6 +3311,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "f0b5610a91"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "01290534e2"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d3471a44fd"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9ea31f93ce"
   },
   {
    "date": "2026-10-11",
@@ -1210,6 +3377,50 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "9adbce3db6"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:45",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "65200cb566"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:50",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8f12b8e832"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "21:55",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d1e371c490"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3a29483cca"
   },
   {
    "date": "2026-10-12",
@@ -1268,6 +3479,28 @@
   },
   {
    "date": "2026-10-12",
+   "time": "15:15",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2d2673e62f"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8cec385ce6"
+  },
+  {
+   "date": "2026-10-12",
    "time": "15:20",
    "title": "Noite e Dia",
    "year": "2026",
@@ -1276,6 +3509,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "60e7554312"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:20",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "c82c775d06"
   },
   {
    "date": "2026-10-12",
@@ -1312,6 +3556,50 @@
   },
   {
    "date": "2026-10-12",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d5a26eebe5"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "f64b537d19"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:55",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ce055a2f5c"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "fa7b514d3b"
+  },
+  {
+   "date": "2026-10-12",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -1320,6 +3608,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "5c1af692b3"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1d57778053"
   },
   {
    "date": "2026-10-12",
@@ -1334,6 +3633,28 @@
   },
   {
    "date": "2026-10-12",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "05aed78cc1"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "25f367b4bb"
+  },
+  {
+   "date": "2026-10-12",
    "time": "17:50",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -1342,6 +3663,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "bed44cbd36"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "18:20",
+   "title": "A Ilha Esquecida",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/forgotten-island-1465063/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "d42e5b7932"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ae5bc067e7"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "dd39f7119c"
   },
   {
    "date": "2026-10-12",
@@ -1356,6 +3710,17 @@
   },
   {
    "date": "2026-10-12",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2dab99298f"
+  },
+  {
+   "date": "2026-10-12",
    "time": "19:00",
    "title": "Rapsodia Satanica",
    "year": "",
@@ -1364,6 +3729,17 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "07d1651921"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "f2efaeca50"
   },
   {
    "date": "2026-10-12",
@@ -1400,6 +3776,39 @@
   },
   {
    "date": "2026-10-12",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3c2e442189"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "eca71dfa32"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "20:50",
+   "title": "Natal Amargo",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/amarga-navidad-1088548/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "bca2d0ef3e"
+  },
+  {
+   "date": "2026-10-12",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -1419,6 +3828,39 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "89b093ef5b"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b298d6cf99"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b29c14d29a"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "3f5470de58"
   },
   {
    "date": "2026-10-12",
@@ -1452,6 +3894,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "603261e52f"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:45",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a5170187c5"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:55",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "76d5a77dfb"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "25179cea98"
   },
   {
    "date": "2026-10-13",
@@ -1510,6 +3985,28 @@
   },
   {
    "date": "2026-10-13",
+   "time": "15:15",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "34cd34a728"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:15",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "c9ddf64e56"
+  },
+  {
+   "date": "2026-10-13",
    "time": "15:20",
    "title": "Noite e Dia",
    "year": "2026",
@@ -1518,6 +4015,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "05d60fa6c0"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:20",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "1eb5e8cd12"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:25",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "08e1651b9b"
   },
   {
    "date": "2026-10-13",
@@ -1554,6 +4073,39 @@
   },
   {
    "date": "2026-10-13",
+   "time": "15:45",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4df0649f7d"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:50",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2f3779a7df"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:55",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a332b31e60"
+  },
+  {
+   "date": "2026-10-13",
    "time": "17:15",
    "title": "Natal Amargo",
    "year": "2026",
@@ -1562,6 +4114,17 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "d705257274"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "17:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ae08d5e9e0"
   },
   {
    "date": "2026-10-13",
@@ -1576,6 +4139,28 @@
   },
   {
    "date": "2026-10-13",
+   "time": "17:25",
+   "title": "A Ovelha Choné: Trapalhada na Quinta",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "9bd2b42f03"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "17:35",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "b62bec98e0"
+  },
+  {
+   "date": "2026-10-13",
    "time": "17:50",
    "title": "A Amiga Silenciosa",
    "year": "2025",
@@ -1584,6 +4169,28 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "5a7a89dccb"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "18:30",
+   "title": "Digger",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/digger-1526305/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "ad43e34076"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "18:40",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8dd8012fb6"
   },
   {
    "date": "2026-10-13",
@@ -1598,6 +4205,17 @@
   },
   {
    "date": "2026-10-13",
+   "time": "18:50",
+   "title": "Coyote Vs. Acme",
+   "year": "2023",
+   "note": "",
+   "url": "https://filmspot.pt/filme/coyote-vs-acme-779132/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "a18c83e0d1"
+  },
+  {
+   "date": "2026-10-13",
    "time": "19:00",
    "title": "Finding Neverland",
    "year": "",
@@ -1606,6 +4224,28 @@
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
    "id": "7593a3bbb4"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "19:10",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "47d8fe5dd9"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "19:20",
+   "title": "Magia e Sedução: Segredos de Família",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/practical-magic-2-1302904/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "bc32008585"
   },
   {
    "date": "2026-10-13",
@@ -1642,6 +4282,28 @@
   },
   {
    "date": "2026-10-13",
+   "time": "19:40",
+   "title": "Resident Evil",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/resident-evil-1423191/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "e655f0aea6"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "19:40",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "4c9dbe4b6a"
+  },
+  {
+   "date": "2026-10-13",
    "time": "21:00",
    "title": "Digger",
    "year": "2026",
@@ -1650,6 +4312,39 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "ceadae683c"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:10",
+   "title": "Verity",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/verity-1283515/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "8d312f37ee"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:15",
+   "title": "Santo António, O Casamenteiro de Lisboa",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/santo-antonio-o-casamenteiro-de-lisboa-1610820/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "2b78df003d"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:20",
+   "title": "Primetime",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primetime-1375441/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "21d753bf0b"
   },
   {
    "date": "2026-10-13",
@@ -1694,6 +4389,50 @@
    "venue": "Cinema City Alvalade",
    "source": "filmspot-cinema-city-alvalade",
    "id": "b22c6af045"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:45",
+   "title": "Primavera - As Quatro Estações",
+   "year": "2025",
+   "note": "",
+   "url": "https://filmspot.pt/filme/primavera-1365683/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "434bf86375"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:50",
+   "title": "O Veredito Social",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/the-social-reckoning-1281331/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "514d754250"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:55",
+   "title": "Noite e Dia",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/virginia-woolf-s-night-day-1291375/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "74c729adca"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "22:00",
+   "title": "Uma Outra Mãe",
+   "year": "2026",
+   "note": "",
+   "url": "https://filmspot.pt/filme/other-mommy-1400837/",
+   "venue": "Cinema City Campo Pequeno",
+   "source": "filmspot-cinema-city-campo-pequeno",
+   "id": "abe62aa368"
   },
   {
    "date": "2026-10-14",
