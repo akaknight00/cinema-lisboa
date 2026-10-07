@@ -1,4 +1,4 @@
 [
   {"name": "cinemateca-bol", "venue": "Cinemateca", "url": "https://cinemateca.bol.pt/", "parser": "jsonld"},
-  {"name": "filmspot-cinema-city-alvalade", "venue": "Cinema City Alvalade", "url": "https://filmspot.pt/cinema/cinema-city-alvalade-lisboa-59/", "parser": "filmspot"}
+  {"name": "filmspot-cinema-city-alvalade", "venue": "Cinema City Alvalade", "url": "https://filmspot.pt/cinema/cinema-city-alvalade-lisboa-59/", "parser": "jsonld"}
 ]
