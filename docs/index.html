@@ -38,6 +38,15 @@ button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
 .x{font-size:.75rem;border:none;background:none;color:var(--mut);padding:2px 0;text-decoration:underline}
 details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:12px 0}
 summary{cursor:pointer;font-weight:600}
+.cn{display:flex;justify-content:space-between;align-items:center;margin:4px 0 8px;text-transform:capitalize}
+.cg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:8px}
+.cg i{font-style:normal;font-size:.75rem;color:var(--mut);text-align:center}
+.cd{border-radius:10px;padding:5px 0;min-height:54px;display:flex;flex-direction:column;align-items:center;gap:1px}
+.cd span{font-weight:600}.cd small{font-size:.6875rem;color:var(--mut);min-height:12px}
+.cd.sel{background:var(--fg);color:var(--bg);border-color:var(--fg)}.cd.sel small{color:var(--bg)}
+.cd.td span{text-decoration:underline}.cd:disabled{opacity:.35;cursor:default}
+.cd em{display:flex;gap:2px;min-height:6px}.cd u{width:6px;height:6px;border-radius:50%;display:block}
+.gb{background:var(--ok)}.gi{background:var(--ac)}.gw{background:#d99a00}
 .empty{text-align:center;color:var(--mut);padding:32px 0}
 .note{color:var(--mut);font-size:.75rem;margin-top:20px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
@@ -54,8 +63,10 @@ summary{cursor:pointer;font-weight:600}
 <select id="fv"></select>
 <select id="fk"></select>
 </div>
+<div class="chips" id="vw"></div>
 <div class="chips" id="chips"></div>
 
+<div id="cal"></div>
 <div id="list"></div>
 
 <details>
@@ -112,14 +123,30 @@ $("#nd").value=today;
 const CH=[["all","Todas"],["i","⭐ Com interesse"],["b","🎟 Bilhetes comprados"],["w","🎬 Na watchlist"]];
 function drawChips(){$("#chips").innerHTML=CH.map(c=>`<button data-c="${c[0]}" class="${chip===c[0]?"on":""}">${c[1]}</button>`).join("")}
 
+let view=ls.get("cl_view","list"),selDay=today,mon=today.slice(0,7);
+function drawVw(){$("#vw").innerHTML=[["list","☰ Lista"],["cal","📅 Calendário"]].map(v=>`<button data-v="${v[0]}" class="${view===v[0]?"on":""}">${v[1]}</button>`).join("")}
+function drawCal(items){
+  const by={};items.forEach(s=>{(by[s.date]=by[s.date]||[]).push(s)});
+  const [Y,M]=mon.split("-").map(Number),first=new Date(Y,M-1,1),n=new Date(Y,M,0).getDate(),off=(first.getDay()+6)%7;
+  let h=`<div class="cn"><button data-m="-1">‹</button><b>${first.toLocaleDateString("pt-PT",{month:"long",year:"numeric"})}</b><button data-m="1">›</button></div><div class="cg">`+["S","T","Q","Q","S","S","D"].map(d=>`<i>${d}</i>`).join("");
+  for(let i=0;i<off;i++)h+="<span></span>";
+  for(let d=1;d<=n;d++){
+    const ds=`${Y}-${String(M).padStart(2,"0")}-${String(d).padStart(2,"0")}`,a=by[ds]||[];
+    const dots=(a.some(s=>st[s.id]==="b")?'<u class="gb"></u>':"")+(a.some(s=>st[s.id]==="i")?'<u class="gi"></u>':"")+(a.some(s=>inWl(s))?'<u class="gw"></u>':"");
+    h+=`<button class="cd${ds===selDay?" sel":""}${ds===today?" td":""}" data-d="${ds}"${ds<today?" disabled":""}><span>${d}</span><small>${a.length||""}</small><em>${dots}</em></button>`;
+  }
+  $("#cal").innerHTML=h+`</div><div class="v" style="margin-bottom:4px"><u class="gb" style="display:inline-block"></u> bilhetes · <u class="gi" style="display:inline-block"></u> interesse · <u class="gw" style="display:inline-block"></u> watchlist</div>`;
+}
 function render(){
   const q=norm($("#q").value),v=fv.value,k=fk.value;
   const items=all().filter(s=>s.date>=today).filter(s=>
     (!q||norm(s.title).includes(q))&&(!v||s.venue===v)&&(!k||KIND[s.venue]===k)&&
     (chip==="all"||(chip==="w"?inWl(s):st[s.id]===chip))
   ).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+  let list=items;
+  if(view==="cal"){drawCal(items);list=items.filter(s=>s.date===selDay)}else $("#cal").innerHTML="";
   let h="",last="";
-  for(const s of items){
+  for(const s of list){
     if(s.date!==last){last=s.date;h+=`<div class="day">${new Date(s.date+"T12:00").toLocaleDateString("pt-PT",{weekday:"long",day:"numeric",month:"long"})}</div>`}
     const x=st[s.id]||"";
     h+=`<article class="c ${x}"><div class="t">${s.time}</div><div class="m"><div class="n">${esc(s.title)}${s.year?` <span class="y">(${s.year})</span>`:""}</div>
@@ -129,12 +156,12 @@ function render(){
     <button class="sb ${x==="b"?"on":""}" data-a="b" data-id="${s.id}">${x==="b"?"🎟 Comprado":"🎟 Comprei"}</button>
     ${s.id[0]!=="u"?"":`<button class="x" data-a="d" data-id="${s.id}">remover</button>`}</div></article>`;
   }
-  $("#list").innerHTML=h||'<div class="empty">Nenhuma sessão com estes filtros.</div>';
+  $("#list").innerHTML=h||'<div class="empty">Nenhuma sessão '+(view==="cal"?"neste dia":"com estes filtros")+'.</div>';
   const vals=Object.entries(st).filter(([id])=>all().some(s=>s.id===id));
   $("#sum").textContent=`${all().filter(s=>s.date>=today).length} sessões · ${vals.filter(e=>e[1]==="i").length} com interesse · ${vals.filter(e=>e[1]==="b").length} com bilhetes`;
   $("#ban").hidden=!upd&&!loadErr;$("#ban").textContent=loadErr||("Sessões atualizadas em "+new Date(upd).toLocaleString("pt-PT",{dateStyle:"short",timeStyle:"short"}));
   $("#wc").textContent=wl.length?`${wl.length} filmes importados`:"";$("#wx").hidden=!wl.length;
-  drawChips();
+  drawChips();drawVw();
 }
 
 // eventos
@@ -144,6 +171,13 @@ $("#list").addEventListener("click",e=>{
   else if(a==="b"){st[id]=cur==="b"?"i":"b"}
   else if(a==="d"){custom=custom.filter(s=>s.id!==id);delete st[id];ls.set("cl_custom",custom)}
   ls.set("cl_st",st);render();
+});
+$("#vw").addEventListener("click",e=>{const b=e.target.closest("button");if(b){view=b.dataset.v;ls.set("cl_view",view);render()}});
+$("#cal").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.d){selDay=b.dataset.d}
+  else if(b.dataset.m){const [Y,M]=mon.split("-").map(Number),nd=new Date(Y,M-1+ +b.dataset.m,1);mon=`${nd.getFullYear()}-${String(nd.getMonth()+1).padStart(2,"0")}`}
+  render();
 });
 $("#chips").addEventListener("click",e=>{const b=e.target.closest("button");if(b){chip=b.dataset.c;render()}});
 ["#q","#fv","#fk"].forEach(s=>$(s).addEventListener("input",render));
