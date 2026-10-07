@@ -3,14 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Cinema Lisboa</title>
+<title>CineLX</title>
+<meta name="theme-color" content="#0d0c0b">
+<meta name="apple-mobile-web-app-title" content="CineLX">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='black'/%3E%3Cg fill='white' stroke='white'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke-width='2'/%3E%3Ccircle cx='16' cy='9.8' r='2' stroke='none'/%3E%3Ccircle cx='21.4' cy='19' r='2' stroke='none'/%3E%3Ccircle cx='10.6' cy='19' r='2' stroke='none'/%3E%3C/g%3E%3C/svg%3E">
 <style>
-:root{--bg:#faf8f5;--fg:#1d1b19;--mut:#6f6a64;--card:#fff;--bd:#e5e0d9;--ac:#b3261e;--ok:#1b6e3c;--okb:#dff3e6;--ib:#fde7e5;--wl:#7a4e00;--wlb:#fff1cf;--sm:#e9e5ff;--smf:#4a3fa0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#faf8f5;--fg:#1d1b19;--mut:#6f6a64;--card:#fff;--bd:#e5e0d9;--ac:#b3261e;--ok:#1b6e3c;--okb:#dff3e6;--ib:#fde7e5;--wl:#7a4e00;--wlb:#fff1cf;--sm:#e9e5ff;--smf:#4a3fa0;box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}}
 :root[data-theme="dark"]{--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}
 *{box-sizing:border-box}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Egyptian Hieroglyphs","Segoe UI Historic","Apple Symbols",sans-serif}
 .w{max-width:720px;margin:0 auto;padding:16px}
 h1{font-size:1.5rem;margin:0 0 2px}
 .sub{color:var(--mut);font-size:.875rem;margin-bottom:12px}
@@ -38,6 +41,18 @@ button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
 .x{font-size:.75rem;border:none;background:none;color:var(--mut);padding:2px 0;text-decoration:underline}
 details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:12px 0}
 summary{cursor:pointer;font-weight:600}
+header{background:#0d0c0b;color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.hw{max-width:720px;margin:0 auto;padding:12px 16px;display:flex;justify-content:space-between;align-items:center}
+.lg{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.25rem;letter-spacing:.02em}
+.mn{position:relative}
+#mb{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+#mp{position:absolute;right:0;top:calc(100% + 6px);min-width:230px;background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:12px;padding:6px;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:5}
+#mp[hidden]{display:none}
+#mp button{display:block;width:100%;text-align:left;border:none;border-radius:8px;padding:10px 12px;background:transparent}
+#mp button:hover{background:var(--bd)}
+dialog{border:1px solid var(--bd);border-radius:16px;background:var(--card);color:var(--fg);padding:0;width:calc(100% - 24px);max-width:520px}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.di{padding:16px}.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.dh b{font-size:1.0625rem}
 .cn{display:flex;justify-content:space-between;align-items:center;margin:4px 0 8px;text-transform:capitalize}
 .cg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:8px}
 .cg i{font-style:normal;font-size:.75rem;color:var(--mut);text-align:center}
@@ -53,8 +68,10 @@ summary{cursor:pointer;font-weight:600}
 </style>
 </head>
 <body>
+<header><div class="hw"><div class="lg"><svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><circle cx="16" cy="16" r="13"/><circle cx="16" cy="8.6" r="2.4" fill="#fff" stroke="none"/><circle cx="22.4" cy="19.7" r="2.4" fill="#fff" stroke="none"/><circle cx="9.6" cy="19.7" r="2.4" fill="#fff" stroke="none"/><circle cx="16" cy="16" r="1.4" fill="#fff" stroke="none"/></svg><span>CineLX</span></div>
+<div class="mn"><button id="mb" aria-haspopup="menu" aria-expanded="false">Ações ▾</button>
+<div id="mp" role="menu" hidden><button data-x="wl">Letterboxd watchlist</button><button data-x="add">Adicionar sessão</button><button data-x="view" id="mv">Ver em lista</button></div></div></div></header>
 <div class="w">
-<h1>🎬 Cinema Lisboa</h1>
 <div class="sub" id="sum"></div>
 <div class="ban" id="ban" hidden></div>
 
@@ -63,37 +80,25 @@ summary{cursor:pointer;font-weight:600}
 <select id="fv"></select>
 <select id="fk"></select>
 </div>
-<div class="chips" id="vw"></div>
 <div class="chips" id="chips"></div>
 
 <div id="cal"></div>
 <div id="list"></div>
 
-<details>
-<summary>＋ Adicionar sessão</summary>
-<div class="f" style="margin-top:10px">
-<input class="full" id="nt" placeholder="Título do filme">
-<input id="ny" type="number" placeholder="Ano (opcional)">
-<select id="nv"></select>
-<input id="nd" type="date">
-<input id="nh" type="time" value="21:00">
-<button class="full" id="na">Adicionar</button>
-</div>
-</details>
 
-<details>
-<summary>📥 Watchlist do Letterboxd</summary>
-<p class="v" style="margin:8px 0">No Letterboxd: Definições → Dados → Exportar dados. Carrega aqui o ficheiro <b>watchlist.csv</b> que vem no zip.</p>
-<input type="file" id="wf">
-<p class="v" style="margin:10px 0 4px">Se não conseguires escolher o ficheiro, abre o <b>watchlist.csv</b>, copia tudo e cola aqui:</p>
-<textarea id="wt" rows="4" style="width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit"></textarea>
-<div class="row"><button id="wp">Importar texto colado</button></div>
-<div class="row"><span class="v" id="wc"></span><button id="wx" hidden>Limpar</button></div>
-</details>
 
 <div class="note">Os estados, as sessões adicionadas e a watchlist ficam guardados só neste browser. Não são partilhados entre telemóvel e computador.</div>
 </div>
 
+<dialog id="dw"><div class="di"><div class="dh"><b>Letterboxd watchlist</b><button data-close>Fechar</button></div>
+<p class="v" style="margin:0 0 8px">No Letterboxd: Definições → Dados → Exportar dados. Escolhe aqui o ficheiro <b>watchlist.csv</b> (já fora do zip). Importar de novo substitui a lista anterior.</p>
+<input type="file" id="wf">
+<p class="v" style="margin:10px 0 4px">Se não conseguires escolher o ficheiro, abre o <b>watchlist.csv</b>, copia tudo e cola aqui:</p>
+<textarea id="wt" rows="4" style="width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit"></textarea>
+<div class="row"><button id="wp">Importar texto colado</button></div>
+<div class="row"><span class="v" id="wc"></span><button id="wx" hidden>Limpar</button></div></div></dialog>
+<dialog id="da"><div class="di"><div class="dh"><b>Adicionar sessão</b><button data-close>Fechar</button></div>
+<div class="f"><input class="full" id="nt" placeholder="Título do filme"><input id="ny" type="number" placeholder="Ano (opcional)"><select id="nv"></select><input id="nd" type="date"><input id="nh" type="time" value="21:00"><button class="full" id="na">Adicionar</button></div></div></dialog>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -120,11 +125,10 @@ nv.innerHTML=VENUES.map(v=>`<option>${esc(v[0])}</option>`).join("");
 fk.innerHTML='<option value="">Todos os tipos</option>'+[...new Set(VENUES.map(v=>v[1]))].map(k=>`<option>${k}</option>`).join("");
 $("#nd").value=today;
 
-const CH=[["all","Todas"],["i","⭐ Com interesse"],["b","🎟 Bilhetes comprados"],["w","🎬 Na watchlist"]];
+const CH=[["all","Todas"],["i","✶⋆ Interesse"],["b","✌︎㋡ Comprei"],["w","𓅔 Watchlist"]];
 function drawChips(){$("#chips").innerHTML=CH.map(c=>`<button data-c="${c[0]}" class="${chip===c[0]?"on":""}">${c[1]}</button>`).join("")}
 
-let view=ls.get("cl_view","list"),selDay=today,mon=today.slice(0,7);
-function drawVw(){$("#vw").innerHTML=[["list","☰ Lista"],["cal","📅 Calendário"]].map(v=>`<button data-v="${v[0]}" class="${view===v[0]?"on":""}">${v[1]}</button>`).join("")}
+let view=ls.get("cl_view2","cal"),selDay=today,mon=today.slice(0,7);
 function drawCal(items){
   const by={};items.forEach(s=>{(by[s.date]=by[s.date]||[]).push(s)});
   const [Y,M]=mon.split("-").map(Number),first=new Date(Y,M-1,1),n=new Date(Y,M,0).getDate(),off=(first.getDay()+6)%7;
@@ -135,7 +139,7 @@ function drawCal(items){
     const dots=(a.some(s=>st[s.id]==="b")?'<u class="gb"></u>':"")+(a.some(s=>st[s.id]==="i")?'<u class="gi"></u>':"")+(a.some(s=>inWl(s))?'<u class="gw"></u>':"");
     h+=`<button class="cd${ds===selDay?" sel":""}${ds===today?" td":""}" data-d="${ds}"${ds<today?" disabled":""}><span>${d}</span><small>${a.length||""}</small><em>${dots}</em></button>`;
   }
-  $("#cal").innerHTML=h+`</div><div class="v" style="margin-bottom:4px"><u class="gb" style="display:inline-block"></u> bilhetes · <u class="gi" style="display:inline-block"></u> interesse · <u class="gw" style="display:inline-block"></u> watchlist</div>`;
+  $("#cal").innerHTML=h+`</div><div class="v" style="margin-bottom:4px"><u class="gb" style="display:inline-block"></u> comprei · <u class="gi" style="display:inline-block"></u> interesse · <u class="gw" style="display:inline-block"></u> watchlist</div>`;
 }
 function render(){
   const q=norm($("#q").value),v=fv.value,k=fk.value;
@@ -151,17 +155,17 @@ function render(){
     const x=st[s.id]||"";
     h+=`<article class="c ${x}"><div class="t">${s.time}</div><div class="m"><div class="n">${esc(s.title)}${s.year?` <span class="y">(${s.year})</span>`:""}</div>
     <div class="v">${esc(s.venue)} · ${KIND[s.venue]||""}${s.note?" · "+esc(s.note):""}</div>
-    ${inWl(s)?'<span class="bd bw">🎬 Na tua watchlist</span>':""}</div>
-    <div class="a"><button class="si ${x==="i"?"on":""}" data-a="i" data-id="${s.id}">${x==="i"?"⭐ Interesse":"☆ Interesse"}</button>
-    <button class="sb ${x==="b"?"on":""}" data-a="b" data-id="${s.id}">${x==="b"?"🎟 Comprado":"🎟 Comprei"}</button>
+    ${inWl(s)?'<span class="bd bw">𓅔 Watchlist</span>':""}</div>
+    <div class="a"><button class="si ${x==="i"?"on":""}" data-a="i" data-id="${s.id}">✶⋆ Interesse</button>
+    <button class="sb ${x==="b"?"on":""}" data-a="b" data-id="${s.id}">✌︎㋡ Comprei</button>
     ${s.id[0]!=="u"?"":`<button class="x" data-a="d" data-id="${s.id}">remover</button>`}</div></article>`;
   }
   $("#list").innerHTML=h||'<div class="empty">Nenhuma sessão '+(view==="cal"?"neste dia":"com estes filtros")+'.</div>';
   const vals=Object.entries(st).filter(([id])=>all().some(s=>s.id===id));
-  $("#sum").textContent=`${all().filter(s=>s.date>=today).length} sessões · ${vals.filter(e=>e[1]==="i").length} com interesse · ${vals.filter(e=>e[1]==="b").length} com bilhetes`;
+  $("#sum").textContent=`${all().filter(s=>s.date>=today).length} sessões · ${vals.filter(e=>e[1]==="i").length} interesse · ${vals.filter(e=>e[1]==="b").length} comprei`;
   $("#ban").hidden=!upd&&!loadErr;$("#ban").textContent=loadErr||("Sessões atualizadas em "+new Date(upd).toLocaleString("pt-PT",{dateStyle:"short",timeStyle:"short"}));
   $("#wc").textContent=wl.length?`${wl.length} filmes importados`:"";$("#wx").hidden=!wl.length;
-  drawChips();drawVw();
+  drawChips();$("#mv").textContent=view==="cal"?"Ver em lista":"Ver em calendário";
 }
 
 // eventos
@@ -172,19 +176,29 @@ $("#list").addEventListener("click",e=>{
   else if(a==="d"){custom=custom.filter(s=>s.id!==id);delete st[id];ls.set("cl_custom",custom)}
   ls.set("cl_st",st);render();
 });
-$("#vw").addEventListener("click",e=>{const b=e.target.closest("button");if(b){view=b.dataset.v;ls.set("cl_view",view);render()}});
 $("#cal").addEventListener("click",e=>{
   const b=e.target.closest("button");if(!b)return;
   if(b.dataset.d){selDay=b.dataset.d}
   else if(b.dataset.m){const [Y,M]=mon.split("-").map(Number),nd=new Date(Y,M-1+ +b.dataset.m,1);mon=`${nd.getFullYear()}-${String(nd.getMonth()+1).padStart(2,"0")}`}
   render();
 });
+const mb=$("#mb"),mp=$("#mp"),menu=o=>{mp.hidden=!o;mb.setAttribute("aria-expanded",o)};
+mb.onclick=e=>{e.stopPropagation();menu(mp.hidden)};
+document.addEventListener("click",e=>{if(!e.target.closest("#mp"))menu(false)});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")menu(false)});
+mp.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;menu(false);
+  if(b.dataset.x==="wl")$("#dw").showModal();
+  else if(b.dataset.x==="add")$("#da").showModal();
+  else{view=view==="cal"?"list":"cal";ls.set("cl_view2",view);render()}
+});
+document.querySelectorAll("dialog").forEach(d=>d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()}));
 $("#chips").addEventListener("click",e=>{const b=e.target.closest("button");if(b){chip=b.dataset.c;render()}});
 ["#q","#fv","#fk"].forEach(s=>$(s).addEventListener("input",render));
 $("#na").onclick=()=>{
   const t=$("#nt").value.trim(),d=$("#nd").value;if(!t||!d)return;
   custom.push({id:"u"+Date.now(),title:t,year:+$("#ny").value||"",venue:nv.value,date:d,time:$("#nh").value||"20:00"});
-  ls.set("cl_custom",custom);$("#nt").value="";$("#ny").value="";render();
+  ls.set("cl_custom",custom);$("#nt").value="";$("#ny").value="";$("#da").close();render();
 };
 
 // CSV Letterboxd
