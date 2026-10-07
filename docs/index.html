@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cinema Lisboa</title>
+<style>
+:root{--bg:#faf8f5;--fg:#1d1b19;--mut:#6f6a64;--card:#fff;--bd:#e5e0d9;--ac:#b3261e;--ok:#1b6e3c;--okb:#dff3e6;--ib:#fde7e5;--wl:#7a4e00;--wlb:#fff1cf;--sm:#e9e5ff;--smf:#4a3fa0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}}
+:root[data-theme="dark"]{--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem;margin:0 0 2px}
+.sub{color:var(--mut);font-size:.875rem;margin-bottom:12px}
+.ban{background:var(--sm);color:var(--smf);border-radius:10px;padding:8px 12px;font-size:.8125rem;margin-bottom:12px}
+.ban button{margin-left:8px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.f input,.f select{width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit}
+.f .full{grid-column:1/-1}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+button{font:inherit;cursor:pointer;border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 12px}
+button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.day{font-weight:600;text-transform:capitalize;margin:18px 0 6px;font-size:.9375rem;color:var(--mut)}
+.c{display:flex;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin-bottom:8px;align-items:flex-start}
+.c.i{border-left:4px solid var(--ac)}.c.b{border-left:4px solid var(--ok)}
+.t{font-weight:700;min-width:46px;font-variant-numeric:tabular-nums}
+.m{flex:1;min-width:0}
+.n{font-weight:600}.y{color:var(--mut);font-weight:400}
+.v{color:var(--mut);font-size:.8125rem}
+.bd{display:inline-block;font-size:.75rem;border-radius:6px;padding:1px 7px;margin:4px 4px 0 0}
+.bw{background:var(--wlb);color:var(--wl)}.bs{background:var(--sm);color:var(--smf)}
+.a{display:flex;flex-direction:column;gap:6px}
+.a button{font-size:.8125rem;padding:5px 10px;white-space:nowrap}
+.a .si.on{background:var(--ib);color:var(--ac);border-color:var(--ac)}
+.a .sb.on{background:var(--okb);color:var(--ok);border-color:var(--ok)}
+.x{font-size:.75rem;border:none;background:none;color:var(--mut);padding:2px 0;text-decoration:underline}
+details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:12px 0}
+summary{cursor:pointer;font-weight:600}
+.empty{text-align:center;color:var(--mut);padding:32px 0}
+.note{color:var(--mut);font-size:.75rem;margin-top:20px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>🎬 Cinema Lisboa</h1>
+<div class="sub" id="sum"></div>
+<div class="ban" id="ban" hidden></div>
+
+<div class="f">
+<input class="full" id="q" type="search" placeholder="Procurar filme…">
+<select id="fv"></select>
+<select id="fk"></select>
+</div>
+<div class="chips" id="chips"></div>
+
+<div id="list"></div>
+
+<details>
+<summary>＋ Adicionar sessão</summary>
+<div class="f" style="margin-top:10px">
+<input class="full" id="nt" placeholder="Título do filme">
+<input id="ny" type="number" placeholder="Ano (opcional)">
+<select id="nv"></select>
+<input id="nd" type="date">
+<input id="nh" type="time" value="21:00">
+<button class="full" id="na">Adicionar</button>
+</div>
+</details>
+
+<details>
+<summary>📥 Watchlist do Letterboxd</summary>
+<p class="v" style="margin:8px 0">No Letterboxd: Definições → Dados → Exportar dados. Carrega aqui o ficheiro <b>watchlist.csv</b> que vem no zip.</p>
+<input type="file" id="wf" accept=".csv,text/csv">
+<div class="row"><span class="v" id="wc"></span><button id="wx" hidden>Limpar</button></div>
+</details>
+
+<div class="note">Os estados, as sessões adicionadas e a watchlist ficam guardados só neste browser. Não são partilhados entre telemóvel e computador.</div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+const VENUES=[
+["Nimas","Sala"],["Cinemateca","Sala"],["Cinema Ideal","Sala"],["Cinema City Campo Pequeno","Sala"],["Cinema City Alvalade","Sala"],["UCI El Corte Inglés","Sala"],["Cinema Fernando Lopes","Sala"],["Cinema São Jorge","Sala"],
+["Queer Lisboa","Festival"],["DocLisboa","Festival"],["Leffest","Festival"],["IndieLisboa","Festival"],["Festival Italiano","Festival"],["Festival Francês","Festival"],["MotelX","Festival"],["MONSTRA","Festival"],["Tribeca Festival Lisboa","Festival"],
+["ZDB (ciclos)","Ciclo"],["Cineconchas (ciclos)","Ciclo"],["Alvalade Cineclube","Cineclube"],["Black Cat Cinema","Ar livre"]];
+const KIND=Object.fromEntries(VENUES);
+
+const iso=d=>{const z=new Date(d.getTime()-d.getTimezoneOffset()*6e4);return z.toISOString().slice(0,10)};
+const today=iso(new Date());
+
+let st=ls.get("cl_st",{}),wl=ls.get("cl_wl",[]),custom=ls.get("cl_custom",[]),remote=[],upd="",loadErr="",chip="all";
+const norm=s=>String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
+const inWl=s=>wl.some(w=>w[0]===norm(s.title)&&(!w[1]||!s.year||w[1]==s.year));
+const all=()=>remote.concat(custom);
+
+// filtros
+const fv=$("#fv"),fk=$("#fk"),nv=$("#nv");
+fv.innerHTML='<option value="">Todos os locais</option>'+VENUES.map(v=>`<option>${esc(v[0])}</option>`).join("");
+nv.innerHTML=VENUES.map(v=>`<option>${esc(v[0])}</option>`).join("");
+fk.innerHTML='<option value="">Todos os tipos</option>'+[...new Set(VENUES.map(v=>v[1]))].map(k=>`<option>${k}</option>`).join("");
+$("#nd").value=today;
+
+const CH=[["all","Todas"],["i","⭐ Com interesse"],["b","🎟 Bilhetes comprados"],["w","🎬 Na watchlist"]];
+function drawChips(){$("#chips").innerHTML=CH.map(c=>`<button data-c="${c[0]}" class="${chip===c[0]?"on":""}">${c[1]}</button>`).join("")}
+
+function render(){
+  const q=norm($("#q").value),v=fv.value,k=fk.value;
+  const items=all().filter(s=>s.date>=today).filter(s=>
+    (!q||norm(s.title).includes(q))&&(!v||s.venue===v)&&(!k||KIND[s.venue]===k)&&
+    (chip==="all"||(chip==="w"?inWl(s):st[s.id]===chip))
+  ).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+  let h="",last="";
+  for(const s of items){
+    if(s.date!==last){last=s.date;h+=`<div class="day">${new Date(s.date+"T12:00").toLocaleDateString("pt-PT",{weekday:"long",day:"numeric",month:"long"})}</div>`}
+    const x=st[s.id]||"";
+    h+=`<article class="c ${x}"><div class="t">${s.time}</div><div class="m"><div class="n">${esc(s.title)}${s.year?` <span class="y">(${s.year})</span>`:""}</div>
+    <div class="v">${esc(s.venue)} · ${KIND[s.venue]||""}${s.note?" · "+esc(s.note):""}</div>
+    ${inWl(s)?'<span class="bd bw">🎬 Na tua watchlist</span>':""}</div>
+    <div class="a"><button class="si ${x==="i"?"on":""}" data-a="i" data-id="${s.id}">${x==="i"?"⭐ Interesse":"☆ Interesse"}</button>
+    <button class="sb ${x==="b"?"on":""}" data-a="b" data-id="${s.id}">${x==="b"?"🎟 Comprado":"🎟 Comprei"}</button>
+    ${s.id[0]!=="u"?"":`<button class="x" data-a="d" data-id="${s.id}">remover</button>`}</div></article>`;
+  }
+  $("#list").innerHTML=h||'<div class="empty">Nenhuma sessão com estes filtros.</div>';
+  const vals=Object.entries(st).filter(([id])=>all().some(s=>s.id===id));
+  $("#sum").textContent=`${all().filter(s=>s.date>=today).length} sessões · ${vals.filter(e=>e[1]==="i").length} com interesse · ${vals.filter(e=>e[1]==="b").length} com bilhetes`;
+  $("#ban").hidden=!upd&&!loadErr;$("#ban").textContent=loadErr||("Sessões atualizadas em "+new Date(upd).toLocaleString("pt-PT",{dateStyle:"short",timeStyle:"short"}));
+  $("#wc").textContent=wl.length?`${wl.length} filmes importados`:"";$("#wx").hidden=!wl.length;
+  drawChips();
+}
+
+// eventos
+$("#list").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-a]");if(!b)return;const id=b.dataset.id,a=b.dataset.a,cur=st[id];
+  if(a==="i"){cur==="i"?delete st[id]:st[id]="i"}
+  else if(a==="b"){st[id]=cur==="b"?"i":"b"}
+  else if(a==="d"){custom=custom.filter(s=>s.id!==id);delete st[id];ls.set("cl_custom",custom)}
+  ls.set("cl_st",st);render();
+});
+$("#chips").addEventListener("click",e=>{const b=e.target.closest("button");if(b){chip=b.dataset.c;render()}});
+["#q","#fv","#fk"].forEach(s=>$(s).addEventListener("input",render));
+$("#na").onclick=()=>{
+  const t=$("#nt").value.trim(),d=$("#nd").value;if(!t||!d)return;
+  custom.push({id:"u"+Date.now(),title:t,year:+$("#ny").value||"",venue:nv.value,date:d,time:$("#nh").value||"20:00"});
+  ls.set("cl_custom",custom);$("#nt").value="";$("#ny").value="";render();
+};
+
+// CSV Letterboxd
+function parseCSV(t){const r=[];let row=[],f="",q=false;
+  for(let i=0;i<t.length;i++){const c=t[i];
+    if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++}else q=false}else f+=c}
+    else if(c==='"')q=true;else if(c===","){row.push(f);f=""}
+    else if(c==="\n"||c==="\r"){if(c==="\r"&&t[i+1]==="\n")i++;row.push(f);r.push(row);row=[];f=""}
+    else f+=c}
+  if(f||row.length){row.push(f);r.push(row)}return r}
+$("#wf").addEventListener("change",async e=>{
+  const f=e.target.files[0];if(!f)return;
+  const rows=parseCSV((await f.text()).replace(/^\uFEFF/,"")),h=rows[0]||[],ni=h.indexOf("Name"),yi=h.indexOf("Year");
+  if(ni<0){$("#wc").textContent="Ficheiro não reconhecido (falta a coluna Name).";return}
+  wl=rows.slice(1).filter(r=>r[ni]).map(r=>[norm(r[ni]),r[yi]||""]);
+  ls.set("cl_wl",wl);render();
+});
+$("#wx").onclick=()=>{wl=[];ls.set("cl_wl",wl);$("#wf").value="";render()};
+
+render();
+fetch("sessions.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{remote=d.sessions||[];upd=d.updated||"";render()}).catch(()=>{loadErr="Não consegui carregar as sessões (sessions.json).";render()});
+</script>
+</body>
+</html>
