@@ -1,0 +1,975 @@
+{
+ "updated": "2026-10-07T11:09+00:00",
+ "sessions": [
+  {
+   "date": "2026-10-07",
+   "time": "15:30",
+   "title": "Viva Maria!",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185990-lado_bb_viva_maria-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "2dd62aca75"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:00",
+   "title": "O Visconde + Tiaga ou a Reecarnação Deliciosa",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186026-noemia_delgado_o_visconde_tiaga_ou_a_reecarnacao_deliciosa-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "9993484486"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:30",
+   "title": "Spécial Bardot",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185974-lado_bb_special_bardot-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "7a3f334393"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "21:30",
+   "title": "A Simple Favor",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185992-lado_bb_a_simple_favor-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "c3176546c6"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "15:30",
+   "title": "Shalako",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186582-lado_bb_shalako-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "c5c3cf9ffe"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "19:00",
+   "title": "O Defunto + O Canto da Sereia",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186028-noemia_delgado_o_defunto_o_canto_da_sereia-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "ad555e9fb9"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "19:30",
+   "title": "La Verité",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185996-lado_bb_la_verite-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "6ec991f1ef"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:30",
+   "title": "Bazar",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186097-paulo_branco_bazar-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "b98e1062b0"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "15:30",
+   "title": "Le Repos Du Guerrier",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185989-lado_bb_le_repos_du_guerrier-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "2b88653355"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:00",
+   "title": "L&#34;Homme Qui a Perdu Son Ombre",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186098-paulo_branco_l_homme_qui_a_perdu_son_ombre-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "cdf11b694a"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:30",
+   "title": "A Noite de Walpurgis+A Estranha Morte do Professor...",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186029-noemia_delgado_a_noite_de_walpurgis_a_estranha_morte_do_professor-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "6cf226586a"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:30",
+   "title": "Dear Brigitte",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185969-lado_bb_dear_brigitte-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "55f5d0e1e5"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:00",
+   "title": "Marte Ataca!",
+   "note": "Sábados em Familía",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185642-sabados_em_familia_marte_ataca-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "451f087b7a"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:00",
+   "title": "Erotikon",
+   "note": "Viagem ao Fim do Mudo",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186105-viagem_ao_fim_do_mudo_erotikon-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "47f1f4f520"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:30",
+   "title": "Ensaio no Moinho+Sol e Sombra+&#34;Filme do Comício de Fa",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186031-noemia_delgado_ensaio_no_moinho_sol_e_sombra_filme_do_comicio_de_fa-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "bbff9b13bd"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:30",
+   "title": "Shalako",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186002-lado_bb_shalako-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "836afecd88"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "15:30",
+   "title": "Paparazzi + Vie Privée",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185972-lado_bb_paparazzi_vie_privee-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8e773456cd"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "19:00",
+   "title": "Rapsodia Satanica",
+   "note": "Viagem ao Fim do Mudo",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186106-viagem_ao_fim_do_mudo_rapsodia_satanica-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "07d1651921"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "19:30",
+   "title": "Cine-Almanaques+Mafra+&#34;Arte Deco&#34;+&#34;o Trabalho do Ouro",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186032-noemia_delgado_cine_almanaques_mafra_arte_deco_o_trabalho_do_ouro-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "05f7662071"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "21:00",
+   "title": "Francisca",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186099-paulo_branco_francisca-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "89b093ef5b"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "15:30",
+   "title": "A Simple Favor",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185993-lado_bb_a_simple_favor-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "cf0421adbc"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "19:00",
+   "title": "Finding Neverland",
+   "note": "Linha de Sombra",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186110-linha_de_sombra_finding_neverland-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "7593a3bbb4"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "19:30",
+   "title": "Quem Foste Alvarez?+Mafra e o Barroco+ A Pousada das",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186034-noemia_delgado_quem_foste_alvarez_mafra_e_o_barroco_a_pousada_das-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "1473a5d463"
+  },
+  {
+   "date": "2026-10-13",
+   "time": "21:30",
+   "title": "Loin de Manhattan",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186100-paulo_branco_loin_de_manhattan-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8b4ab74ded"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "15:30",
+   "title": "La Verité",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185997-lado_bb_la_verite-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "f66e7a1872"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "19:00",
+   "title": "Máscaras",
+   "note": "Noémia Delgado",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186020-noemia_delgado_mascaras-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "06fd5c4a95"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "19:30",
+   "title": "Et Dieu... Créa La Femme",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185965-lado_bb_et_dieu_crea_la_femme-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0efef1404d"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "21:30",
+   "title": "Viva Maria!",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185991-lado_bb_viva_maria-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "d994e14ad2"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "15:30",
+   "title": "La Femme et La Patin",
+   "note": "Lado  BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186584-lado_bb_la_femme_et_la_patin-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "20f37aa360"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "19:30",
+   "title": "Les Pétroleuses",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185980-lado_bb_les_petroleuses-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "f767e0ef3b"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "21:30",
+   "title": "La Plage Noire",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186101-paulo_branco_la_plage_noire-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "bf11e4a976"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "18:00",
+   "title": "Insiang",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186037-lino_brocka_insiang-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "19e34130c8"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "19:30",
+   "title": "La Femme et La Patin",
+   "note": "Lado  BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186587-lado_bb_la_femme_et_la_patin-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "757bb40bea"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "21:30",
+   "title": "Tinimbang Ka Ngunit Kulang",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186040-lino_brocka_tinimbang_ka_ngunit_kulang-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8c4bc1a8e5"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "15:00",
+   "title": "Ser e Ter",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185604-sabados_em_familia_ser_e_ter-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "2a220fbb56"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "18:00",
+   "title": "Le Parti Des Choses: Bardot /Godard + Le Mépris",
+   "note": "Lado BB",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185967-lado_bb_le_parti_des_choses_bardot_godard_le_mepris-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "5c96a0a36a"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "19:30",
+   "title": "Signed:Lino Brocka",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186043-lino_brocka_signed_lino_brocka-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "60baceb5e3"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "21:30",
+   "title": "Macho Dancer",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186045-lino_brocka_macho_dancer-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "431b3b5914"
+  },
+  {
+   "date": "2026-10-19",
+   "time": "15:30",
+   "title": "Insiang",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186038-lino_brocka_insiang-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "e68e80d52d"
+  },
+  {
+   "date": "2026-10-19",
+   "time": "19:00",
+   "title": "Bona",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186048-lino_brocka_bona-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "914d9c2220"
+  },
+  {
+   "date": "2026-10-19",
+   "time": "19:30",
+   "title": "Ina, Kapatid, Anak",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186049-lino_brocka_ina_kapatid_anak-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8596e14605"
+  },
+  {
+   "date": "2026-10-19",
+   "time": "21:30",
+   "title": "Cain e Abel",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186051-lino_brocka_cain_e_abel-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "d6d35bc5ce"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "15:30",
+   "title": "Dalaga Si Misis, Binata Si MIster",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186054-lino_brocka_dalaga_si_misis_binata_si_mister-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "3abd43ecdf"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "19:00",
+   "title": "Bayan Ko:Kapit Sa Patalin",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186056-lino_brocka_bayan_ko_kapit_sa_patalin-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8b0c04ef70"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "19:30",
+   "title": "Wanted: Perfect Mother",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186058-lino_brocka_wanted_perfect_mother-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "d4b51e7943"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "21:30",
+   "title": "Sa Kabila Ng Lahat",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186060-lino_brocka_sa_kabila_ng_lahat-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "bb20ac2d31"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "15:30",
+   "title": "Maynila Sa Mga Kuko Ng Liwanag",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186062-lino_brocka_maynila_sa_mga_kuko_ng_liwanag-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "7b18fb7876"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "19:00",
+   "title": "Maria Papoila",
+   "note": "Leitão de Barros",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186103-leitao_de_barros_maria_papoila-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "357c02feb6"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "19:30",
+   "title": "Ang Tatay Kong Nanay",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186065-lino_brocka_ang_tatay_kong_nanay-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0d0a5324da"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "21:45",
+   "title": "Orapronobis",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186066-lino_brocka_orapronobis-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "fe4d3e4187"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "15:30",
+   "title": "Gumapang Ka Sa Lusak",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186068-lino_brocka_gumapang_ka_sa_lusak-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "b910b86ed0"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "19:00",
+   "title": "Macho Dancer",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186046-lino_brocka_macho_dancer-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "e39fca9b44"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "19:30",
+   "title": "Ina, Kapatid, Anak",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186050-lino_brocka_ina_kapatid_anak-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "6b92904d84"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "22:00",
+   "title": "Gumising Ka... Maruja",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186070-lino_brocka_gumising_ka_maruja-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "4c4523825c"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "15:30",
+   "title": "Orapronobis",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186067-lino_brocka_orapronobis-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "d5d5b5e46c"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "19:00",
+   "title": "Tinimbang Ka Ngunit Kulang",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186041-lino_brocka_tinimbang_ka_ngunit_kulang-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "6638a25827"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "19:30",
+   "title": "Oca + Ano Ang Kulay Ng Mukha Ng Dyios?",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186073-lino_brocka_oca_ano_ang_kulay_ng_mukha_ng_dyios-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "e29db29c45"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "21:45",
+   "title": "Jaguar",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186075-lino_brocka_jaguar-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "43bdda7144"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "15:00",
+   "title": "A Torre",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185606-sabados_em_familia_a_torre-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0b7dcacf8a"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "16:00",
+   "title": "Gumapang Ka Sa Lusak",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186069-lino_brocka_gumapang_ka_sa_lusak-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "a17628dda6"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "18:00",
+   "title": "Gumising Ka... Maruja",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186072-lino_brocka_gumising_ka_maruja-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "17635916e5"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "19:30",
+   "title": "Cain e Abel",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186052-lino_brocka_cain_e_abel-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "66faa12cd2"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "21:30",
+   "title": "Sa Kabila Ng Lahat",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186061-lino_brocka_sa_kabila_ng_lahat-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0beea41ec5"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "15:30",
+   "title": "Maria Papoila",
+   "note": "Leitão de Barros",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186104-leitao_de_barros_maria_papoila-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "dda4c0cb81"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "19:00",
+   "title": "Sessão de Abertura: Os Retratos de Margaret Tait",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186077-margaret_tait_sessao_de_abertura_os_retratos_de_margaret_tait-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "38351cdd00"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "21:00",
+   "title": "No Dia dos Meus Anos",
+   "note": "Paulo Branco",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186102-paulo_branco_no_dia_dos_meus_anos-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "87fffb87f0"
+  },
+  {
+   "date": "2026-10-26",
+   "time": "21:30",
+   "title": "Dalaga Si Misis, Binata Si MIster",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186055-lino_brocka_dalaga_si_misis_binata_si_mister-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "545fd4cc1f"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "15:30",
+   "title": "Robert Rosselini e Margaret Tait:A Brecha da Modernide",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186078-margaret_tait_robert_rosselini_e_margaret_tait_a_brecha_da_modernide-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "a63b8506e7"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:30",
+   "title": "Ute Aurand e Margaret Tai: Pintar Um Lugar",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186082-margaret_tait_ute_aurand_e_margaret_tai_pintar_um_lugar-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "b9320710f3"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "21:30",
+   "title": "Letty Lynton",
+   "note": "Dia Mundial do Património Audiovisual",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186108-dia_mundial_do_patrimonio_audiovisual_letty_lynton-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "a1065bcc4a"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "15:30",
+   "title": "Jaguar",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186076-lino_brocka_jaguar-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "ae00c0ed9b"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:00",
+   "title": "Margaret Tait: Do Início ao Fim",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186083-margaret_tait_margaret_tait_do_inicio_ao_fim-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "e52776355c"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:30",
+   "title": "Oca + Ano Ang Kulay Ng Mukha Ng Dyios?",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186074-lino_brocka_oca_ano_ang_kulay_ng_mukha_ng_dyios-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "95baa383ec"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "21:30",
+   "title": "Margaret Tait e Charlotte Wells: Despedidas",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186086-margaret_tait_margaret_tait_e_charlotte_wells_despedidas-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "3bcafb27d0"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "15:30",
+   "title": "Maynila Sa Mga Kuko Ng Liwanag",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186064-lino_brocka_maynila_sa_mga_kuko_ng_liwanag-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "00f1f028fa"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "19:00",
+   "title": "Bayan Ko:Kapit Sa Patalin",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186057-lino_brocka_bayan_ko_kapit_sa_patalin-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "3b2ff94d0f"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "19:30",
+   "title": "Margaret Tait e Peter Todd. A Memóriia das Coisas",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186087-margaret_tait_margaret_tait_e_peter_todd_a_memoriia_das_coisas-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "b2662e039e"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "21:30",
+   "title": "Vários Filmes",
+   "note": "ETIC",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186113-etic_varios_filmes-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "a98f60c393"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "15:30",
+   "title": "Letty Lynton",
+   "note": "Dia Mundial do Património Audiovisual",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186109-dia_mundial_do_patrimonio_audiovisual_letty_lynton-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "bb8764edaf"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "19:00",
+   "title": "Peter Todd e Margaret Tait: Exterior- Interior",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186088-margaret_tait_peter_todd_e_margaret_tait_exterior_interior-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "a827f0c2b4"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "19:30",
+   "title": "Signed:Lino Brocka",
+   "note": "Lino Brocka",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186044-lino_brocka_signed_lino_brocka-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "f70f24e2b4"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "21:30",
+   "title": "Vários Filmes",
+   "note": "IADE",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186112-iade_varios_filmes-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "73725a93e4"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "15:00",
+   "title": "Filmes dos Primórdios",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185607-sabados_em_familia_filmes_dos_primordios-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "9f8b15f5a5"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "16:00",
+   "title": "Margaret Tait: Do Início ao Fim",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186084-margaret_tait_margaret_tait_do_inicio_ao_fim-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "c3c211c454"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "18:00",
+   "title": "Frau In Mond",
+   "note": "Viagem ao Fim do Mudo",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186107-viagem_ao_fim_do_mudo_frau_in_mond-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8862f639b1"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "19:30",
+   "title": "Margaret Tait e Luke Fowler: Reflexões",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186090-margaret_tait_margaret_tait_e_luke_fowler_reflexoes-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "41c8d5d2d2"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "22:00",
+   "title": "Robert Rosselini e Margaret Tait:A Brecha da Modernide",
+   "note": "Margaret Tait",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/186079-margaret_tait_robert_rosselini_e_margaret_tait_a_brecha_da_modernide-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "159c0039a6"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "15:00",
+   "title": "Beetlejuice Beetlejuice",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185612-sabados_em_familia_beetlejuice_beetlejuice-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "acc80c2e4f"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "15:00",
+   "title": "Kirikou",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185615-sabados_em_familia_kirikou-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "dfbbbc2147"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "title": "Frozen - O Reino do Gelo",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185616-sabados_em_familia_frozen_o_reino_do_gelo-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "9be13da601"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "15:00",
+   "title": "O Aventureiro + Um Carro do Pior + O Aeronauta",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185618-sabados_em_familia_o_aventureiro_um_carro_do_pior_o_aeronauta-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0b78a9a3bd"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "15:00",
+   "title": "O Quebra - Nozes",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185620-sabados_em_familia_o_quebra_nozes-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "24905c14ab"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "15:00",
+   "title": "Winnie The Pooh",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185621-sabados_em_familia_winnie_the_pooh-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "f3a100fb09"
+  },
+  {
+   "date": "2026-12-16",
+   "time": "10:00",
+   "title": "Especial Férias Natal | A Quimera do Ouro",
+   "note": "Cinemateca Júnior",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185672-cinemateca_junior_especial_ferias_natal_a_quimera_do_ouro-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "7d24147d04"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "15:00",
+   "title": "Serenata à Chuva",
+   "note": "Sábados em Família",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185623-sabados_em_familia_serenata_a_chuva-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "0dbb644b9a"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "10:00",
+   "title": "Especial Férias Natal | Dumbo",
+   "note": "Cinemateca Júnior",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185674-cinemateca_junior_especial_ferias_natal_dumbo-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "8e0bf1228a"
+  },
+  {
+   "date": "2026-12-30",
+   "time": "10:00",
+   "title": "Especial Férias Natal | Sozinho em Casa",
+   "note": "Cinemateca Júnior",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/185675-cinemateca_junior_especial_ferias_natal_sozinho_em_casa-cinemateca/",
+   "venue": "Cinemateca",
+   "source": "cinemateca-bol",
+   "id": "bcc383defa"
+  }
+ ]
+}
