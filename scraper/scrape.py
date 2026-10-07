@@ -5,7 +5,7 @@ Uso:  python scraper/scrape.py [--debug] [--only NOME_DA_FONTE]
 --debug guarda o HTML de cada fonte em scraper/debug/ (para inspeção).
 Se uma fonte falhar ou vier vazia, mantêm-se as sessões antigas dessa fonte.
 """
-import argparse, hashlib, json, re, sys
+import argparse, hashlib, json, re, sys, time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -96,6 +96,7 @@ def main():
         if args.only and name != args.only:
             continue
         try:
+            time.sleep(2)  # pausa entre pedidos
             html = fetch(src["url"])
             if args.debug:
                 DEBUG_DIR.mkdir(exist_ok=True)
