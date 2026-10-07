@@ -43,7 +43,8 @@ def iter_jsonld(html):
                 stack.extend(x)
             elif isinstance(x, dict):
                 if "@graph" in x:
-                    stack.extend(x["@graph"])
+                    g = x["@graph"]
+                    stack.extend(g if isinstance(g, list) else [g])
                 yield x
 
 
@@ -54,59 +55,24 @@ def parse_jsonld(html, src):
         name, start = x.get("name"), x.get("startDate")
         if not (isinstance(name, str) and isinstance(start, str)):
             continue
-        if not re.match(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", start):
+        if not re.match(r"\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}", start):
             continue
         note, title = "", name.strip()
         if " | " in title:  # ex.: "Lado BB | Viva Maria!"
             note, title = [p.strip() for p in title.split(" | ", 1)]
+        year = ""
+        m = re.match(r"^(.+?)\s*\((\d{4})\)\s*$", title)  # "Título / Original (2025)"
+        if m:
+            title, year = m.group(1).split(" / ")[0].strip(), m.group(2)
+        url = x.get("url") or (x.get("workPresented") or {}).get("url", "") or ""
         out.append({"date": start[:10], "time": start[11:16], "title": title,
-                    "note": note, "url": x.get("url", "") or ""})
-    return out
-
-
-MESES = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
-         "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12}
-DAY_RE = re.compile(r"^(?:seg|ter|qua|qui|sex|s[áa]b|dom)\w*\.?\s+(\d{1,2})\s+([A-Za-zçÇ]{3})", re.I)
-TIME_RE = re.compile(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)")
-FILM_RE = re.compile(r"^(.+?)\s*\((\d{4})\)\s*$")
-
-
-def parse_filmspot(html, src):
-    """filmSPOT: títulos 'Nome (ano)' seguidos de linhas 'Qua 30 Set: 15:20 · 18:20'."""
-    lines = [l.strip() for l in BeautifulSoup(html, "html.parser").get_text("\n").split("\n") if l.strip()]
-    today, out = date.today(), []
-    title = year = day = None
-
-    def add(text):
-        for m in TIME_RE.finditer(text):
-            out.append({"date": day.isoformat(), "time": f"{int(m.group(1)):02d}:{m.group(2)}",
-                        "title": title, "year": year, "note": "", "url": src["url"]})
-
-    for line in lines:
-        m = DAY_RE.match(line)
-        mon = MESES.get(m.group(2)[:3].lower()) if m else None
-        if m and mon and title:
-            try:
-                day = date(today.year, mon, int(m.group(1)))
-            except ValueError:
-                day = None
-                continue
-            if (today - day).days > 180:
-                day = day.replace(year=today.year + 1)
-            add(line[m.end():])
-            continue
-        f = FILM_RE.match(line)
-        if f and not TIME_RE.search(line):
-            title, year, day = f.group(1).split(" / ")[0].strip(), f.group(2), None
-            continue
-        if day and title and re.fullmatch(r"[\d:\s·,•|/-]+", line):
-            add(line)
+                    "year": year, "note": note, "url": url})
     return out
 
 
 # Para um site sem JSON-LD, escreve-se aqui um parser próprio e regista-se em PARSERS.
 # Cada parser recebe (html, src) e devolve uma lista de dicts com date, time, title.
-PARSERS = {"jsonld": parse_jsonld, "filmspot": parse_filmspot}
+PARSERS = {"jsonld": parse_jsonld}
 
 
 def make_id(s):
