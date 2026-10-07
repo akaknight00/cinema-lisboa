@@ -19,8 +19,11 @@ DEBUG_DIR = ROOT / "scraper" / "debug"
 UA = "cinema-lisboa-pessoal/0.1 (projeto pessoal; 1 pedido por fonte por dia)"
 
 
+SESSION = requests.Session()  # guarda cookies (evita ciclos de redirecionamento)
+
+
 def fetch(url):
-    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "pt-PT,pt;q=0.9"}, timeout=30)
+    r = SESSION.get(url, headers={"User-Agent": UA, "Accept-Language": "pt-PT,pt;q=0.9"}, timeout=30)
     r.raise_for_status()
     return r.text
 
@@ -61,9 +64,49 @@ def parse_jsonld(html, src):
     return out
 
 
+MESES = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
+         "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12}
+DAY_RE = re.compile(r"^(?:seg|ter|qua|qui|sex|s[áa]b|dom)\w*\.?\s+(\d{1,2})\s+([A-Za-zçÇ]{3})", re.I)
+TIME_RE = re.compile(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)")
+FILM_RE = re.compile(r"^(.+?)\s*\((\d{4})\)\s*$")
+
+
+def parse_filmspot(html, src):
+    """filmSPOT: títulos 'Nome (ano)' seguidos de linhas 'Qua 30 Set: 15:20 · 18:20'."""
+    lines = [l.strip() for l in BeautifulSoup(html, "html.parser").get_text("\n").split("\n") if l.strip()]
+    today, out = date.today(), []
+    title = year = day = None
+
+    def add(text):
+        for m in TIME_RE.finditer(text):
+            out.append({"date": day.isoformat(), "time": f"{int(m.group(1)):02d}:{m.group(2)}",
+                        "title": title, "year": year, "note": "", "url": src["url"]})
+
+    for line in lines:
+        m = DAY_RE.match(line)
+        mon = MESES.get(m.group(2)[:3].lower()) if m else None
+        if m and mon and title:
+            try:
+                day = date(today.year, mon, int(m.group(1)))
+            except ValueError:
+                day = None
+                continue
+            if (today - day).days > 180:
+                day = day.replace(year=today.year + 1)
+            add(line[m.end():])
+            continue
+        f = FILM_RE.match(line)
+        if f and not TIME_RE.search(line):
+            title, year, day = f.group(1).split(" / ")[0].strip(), f.group(2), None
+            continue
+        if day and title and re.fullmatch(r"[\d:\s·,•|/-]+", line):
+            add(line)
+    return out
+
+
 # Para um site sem JSON-LD, escreve-se aqui um parser próprio e regista-se em PARSERS.
 # Cada parser recebe (html, src) e devolve uma lista de dicts com date, time, title.
-PARSERS = {"jsonld": parse_jsonld}
+PARSERS = {"jsonld": parse_jsonld, "filmspot": parse_filmspot}
 
 
 def make_id(s):
