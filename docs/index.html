@@ -73,7 +73,10 @@ summary{cursor:pointer;font-weight:600}
 <details>
 <summary>📥 Watchlist do Letterboxd</summary>
 <p class="v" style="margin:8px 0">No Letterboxd: Definições → Dados → Exportar dados. Carrega aqui o ficheiro <b>watchlist.csv</b> que vem no zip.</p>
-<input type="file" id="wf" accept=".csv,text/csv">
+<input type="file" id="wf">
+<p class="v" style="margin:10px 0 4px">Se não conseguires escolher o ficheiro, abre o <b>watchlist.csv</b>, copia tudo e cola aqui:</p>
+<textarea id="wt" rows="4" style="width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit"></textarea>
+<div class="row"><button id="wp">Importar texto colado</button></div>
 <div class="row"><span class="v" id="wc"></span><button id="wx" hidden>Limpar</button></div>
 </details>
 
@@ -158,13 +161,18 @@ function parseCSV(t){const r=[];let row=[],f="",q=false;
     else if(c==="\n"||c==="\r"){if(c==="\r"&&t[i+1]==="\n")i++;row.push(f);r.push(row);row=[];f=""}
     else f+=c}
   if(f||row.length){row.push(f);r.push(row)}return r}
-$("#wf").addEventListener("change",async e=>{
-  const f=e.target.files[0];if(!f)return;
-  const rows=parseCSV((await f.text()).replace(/^\uFEFF/,"")),h=rows[0]||[],ni=h.indexOf("Name"),yi=h.indexOf("Year");
-  if(ni<0){$("#wc").textContent="Ficheiro não reconhecido (falta a coluna Name).";return}
+function loadWl(text){
+  const rows=parseCSV(text.replace(/^\uFEFF/,"")),h=rows[0]||[],ni=h.indexOf("Name"),yi=h.indexOf("Year");
+  if(ni<0){$("#wc").textContent="Não reconheci o conteúdo (falta a coluna Name).";return}
   wl=rows.slice(1).filter(r=>r[ni]).map(r=>[norm(r[ni]),r[yi]||""]);
   ls.set("cl_wl",wl);render();
+}
+$("#wf").addEventListener("change",async e=>{
+  const f=e.target.files[0];if(!f)return;
+  if(/\.zip$/i.test(f.name)){$("#wc").textContent="Isto é um zip: descomprime-o e escolhe o watchlist.csv.";return}
+  try{loadWl(await f.text())}catch(x){$("#wc").textContent="Não consegui ler o ficheiro."}
 });
+$("#wp").onclick=()=>loadWl($("#wt").value);
 $("#wx").onclick=()=>{wl=[];ls.set("cl_wl",wl);$("#wf").value="";render()};
 
 render();
