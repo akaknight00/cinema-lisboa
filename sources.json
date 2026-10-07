@@ -1,0 +1,4 @@
+[
+  {"name": "cinemateca-bol", "venue": "Cinemateca", "url": "https://cinemateca.bol.pt/", "parser": "jsonld"},
+  {"name": "viralagenda-cinema-city-alvalade", "venue": "Cinema City Alvalade", "url": "https://www.viralagenda.com/pt/p/286425331381224", "parser": "jsonld"}
+]
