@@ -4,204 +4,239 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CineLX</title>
-<meta name="theme-color" content="#0d0c0b">
+<meta name="theme-color" content="#272727">
 <meta name="apple-mobile-web-app-title" content="CineLX">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='black'/%3E%3Cg fill='white' stroke='white'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke-width='2'/%3E%3Ccircle cx='16' cy='9.8' r='2' stroke='none'/%3E%3Ccircle cx='21.4' cy='19' r='2' stroke='none'/%3E%3Ccircle cx='10.6' cy='19' r='2' stroke='none'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23272727'/%3E%3Cpolygon points='16%2C5 19.1%2C12.6 27.3%2C13.2 21%2C18.5 23%2C26.5 16%2C22.2 9%2C26.5 11%2C18.5 4.7%2C13.2 12.9%2C12.6' fill='%23fff5e6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#faf8f5;--fg:#1d1b19;--mut:#6f6a64;--card:#fff;--bd:#e5e0d9;--ac:#b3261e;--ok:#1b6e3c;--okb:#dff3e6;--ib:#fde7e5;--wl:#7a4e00;--wlb:#fff1cf;--sm:#e9e5ff;--smf:#4a3fa0;box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}}
-:root[data-theme="dark"]{--bg:#161412;--fg:#f0ece6;--mut:#a39d95;--card:#211e1b;--bd:#37332f;--ac:#ff8a80;--ok:#7fd9a1;--okb:#17301f;--ib:#3a1f1d;--wl:#ffd27a;--wlb:#3a2c0c;--sm:#2a2650;--smf:#c3bcff}
+:root{--bg:#272727;--cr:#fff5e6;--ln:#938e87;--gr:#84817e;--mu:#b9b3a9;--sans:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Egyptian Hieroglyphs","Segoe UI Historic","Apple Symbols",sans-serif;--syn:"Syncopate","Space Grotesk",system-ui,sans-serif;color-scheme:dark}
 *{box-sizing:border-box}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Egyptian Hieroglyphs","Segoe UI Historic","Apple Symbols",sans-serif}
-.w{max-width:720px;margin:0 auto;padding:16px}
-h1{font-size:1.5rem;margin:0 0 2px}
-.sub{color:var(--mut);font-size:.875rem;margin-bottom:12px}
-.ban{background:var(--sm);color:var(--smf);border-radius:10px;padding:8px 12px;font-size:.8125rem;margin-bottom:12px}
-.ban button{margin-left:8px}
-.f{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
-.f input,.f select{width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit}
-.f .full{grid-column:1/-1}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
-button{font:inherit;cursor:pointer;border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 12px}
-button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.day{font-weight:600;text-transform:capitalize;margin:18px 0 6px;font-size:.9375rem;color:var(--mut)}
-.c{display:flex;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin-bottom:8px;align-items:flex-start}
-.c.i{border-left:4px solid var(--ac)}.c.b{border-left:4px solid var(--ok)}
-.t{font-weight:700;min-width:46px;font-variant-numeric:tabular-nums}
-.m{flex:1;min-width:0}
-.n{font-weight:600}.y{color:var(--mut);font-weight:400}
-.v{color:var(--mut);font-size:.8125rem}
-.bd{display:inline-block;font-size:.75rem;border-radius:6px;padding:1px 7px;margin:4px 4px 0 0}
-.bw{background:var(--wlb);color:var(--wl)}.bs{background:var(--sm);color:var(--smf)}
-.a{display:flex;flex-direction:column;gap:6px}
-.a button{font-size:.8125rem;padding:5px 10px;white-space:nowrap}
-.a .si.on{background:var(--ib);color:var(--ac);border-color:var(--ac)}
-.a .sb.on{background:var(--okb);color:var(--ok);border-color:var(--ok)}
-.x{font-size:.75rem;border:none;background:none;color:var(--mut);padding:2px 0;text-decoration:underline}
-details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:12px 0}
-summary{cursor:pointer;font-weight:600}
-header{background:#0d0c0b;color:#fff;padding-top:env(safe-area-inset-top,0px)}
-.hw{max-width:720px;margin:0 auto;padding:12px 16px;display:flex;justify-content:space-between;align-items:center}
-.lg{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.25rem;letter-spacing:.02em}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--cr);font:15px/1.4 var(--sans);overflow-x:hidden}
+.w{max-width:520px;margin:0 auto;padding:calc(env(safe-area-inset-top,0px) + 20px) 18px calc(env(safe-area-inset-bottom,0px) + 28px)}
+button{font:inherit;color:var(--cr);background:transparent;border:1px solid var(--ln);border-radius:0;padding:6px 12px;cursor:pointer}
+button.on{background:var(--cr);color:var(--bg);border-color:var(--cr)}
+header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:22px}
+.st{font-size:15px;letter-spacing:3px;line-height:1;margin-left:2px}
+.wm{font:400 44px/1 var(--syn);margin-top:3px}
 .mn{position:relative}
-#mb{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
-#mp{position:absolute;right:0;top:calc(100% + 6px);min-width:230px;background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:12px;padding:6px;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:5}
+#mb{width:28px;height:52px;border:none;border-radius:14px;background:var(--cr);color:var(--bg);font-size:24px;line-height:1;padding:0;display:flex;align-items:center;justify-content:center}
+#mb span{display:block;transition:transform .15s}
+#mb[aria-expanded="true"] span{transform:rotate(45deg)}
+#mp{position:absolute;right:0;top:calc(100% + 8px);min-width:260px;background:#1d1d1d;border:1px solid var(--ln);padding:6px;z-index:5}
 #mp[hidden]{display:none}
-#mp button{display:block;width:100%;text-align:left;border:none;border-radius:8px;padding:10px 12px;background:transparent}
-#mp button:hover{background:var(--bd)}
-dialog{border:1px solid var(--bd);border-radius:16px;background:var(--card);color:var(--fg);padding:0;width:calc(100% - 24px);max-width:520px}
-dialog::backdrop{background:rgba(0,0,0,.45)}
-.di{padding:16px}.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.dh b{font-size:1.0625rem}
-.cn{display:flex;justify-content:space-between;align-items:center;margin:4px 0 8px;text-transform:capitalize}
-.cg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:8px}
-.cg i{font-style:normal;font-size:.75rem;color:var(--mut);text-align:center}
-.cd{border-radius:10px;padding:5px 0;min-height:54px;display:flex;flex-direction:column;align-items:center;gap:1px}
-.cd span{font-weight:600}.cd small{font-size:.6875rem;color:var(--mut);min-height:12px}
-.cd.sel{background:var(--fg);color:var(--bg);border-color:var(--fg)}.cd.sel small{color:var(--bg)}
-.cd.td span{text-decoration:underline}.cd:disabled{opacity:.35;cursor:default}
-.cd em{display:flex;gap:2px;min-height:6px}.cd u{width:6px;height:6px;border-radius:50%;display:block}
-.gb{background:var(--ok)}.gi{background:var(--ac)}.gw{background:#d99a00}
-.empty{text-align:center;color:var(--mut);padding:32px 0}
-.note{color:var(--mut);font-size:.75rem;margin-top:20px}
+#mp button{display:block;width:100%;text-align:left;border:none;padding:11px 12px}
+#mp button:hover{background:#333}
+.pill{display:inline-block;background:var(--gr);color:var(--cr);border-radius:8px;padding:2px 9px;font-size:.8125rem;margin-bottom:16px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.full{grid-column:1/-1}
+input,select,textarea{width:100%;padding:10px 12px;border:1px solid var(--ln);border-radius:0;background:transparent;color:var(--cr);font:inherit}
+input::placeholder{color:var(--mu)}
+select{appearance:none;-webkit-appearance:none;padding-right:28px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23fff5e6' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center}
+option{background:#272727;color:var(--cr)}
+#cal{position:relative;isolation:isolate;margin-bottom:18px}
+#cal:empty{display:none}
+#cal::before{content:"";position:absolute;inset:-70px -70px;background:radial-gradient(closest-side,rgba(215,205,185,.7),rgba(170,162,148,.3) 50%,rgba(39,39,39,0));z-index:-1;pointer-events:none}
+.cn{display:flex;justify-content:space-between;align-items:center;margin:6px 0 10px}
+.cn b{font:400 22px var(--syn)}
+.cn button{background:#a49f96;color:#272727;border:none;border-radius:8px;padding:1px 14px;font-size:.8125rem}
+.cg{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cg i{font:normal 400 11px var(--syn);text-align:center;color:var(--mu);padding:2px 0}
+.cd{width:100%;max-width:46px;justify-self:center;height:54px;border-radius:999px;border:1px solid var(--cr);background:var(--cr);color:#272727;padding:0;display:flex;align-items:center;justify-content:center;position:relative}
+.cd span{font:400 19px/1 var(--syn)}
+.cd.wl span{transform:translateY(-5px)}
+.cd em{font:normal 10px/1 var(--sans);position:absolute;bottom:8px}
+.cd.out{background:transparent;border-color:rgba(147,142,135,.45);color:rgba(255,245,230,.28)}
+.cd.sel{background:#272727;color:var(--cr);border-color:var(--cr)}
+.cd.td:not(.sel) span{text-decoration:underline}
+.cd:disabled{cursor:default}
+.day{display:inline-block;background:#000;color:var(--cr);border-radius:8px;padding:2px 10px;font-size:.8125rem;margin:16px 0 10px}
+.c{cursor:pointer;display:flex;gap:14px;border:1px solid var(--ln);padding:12px 14px;margin-bottom:12px;align-items:flex-start}
+.t{font-weight:700;min-width:44px}
+.m{flex:1;min-width:0}
+.n{font-weight:700;line-height:1.3}
+.y{font-size:.75rem;color:var(--mu)}
+.v{margin-top:8px}
+.bw{display:inline-block;margin-top:8px;border:1px solid var(--ln);padding:0 8px;font-size:.75rem}
+.a{display:flex;flex-direction:column;gap:10px;width:96px}
+.a button{background:#000;border:none;font-size:.8125rem;padding:5px 0;text-align:center}
+.a button.on{background:var(--cr);color:#272727}
+.a .x{background:none;text-decoration:underline;color:var(--mu);font-size:.75rem}
+.pf{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
+.pf>div{min-width:0}
+.ps{width:112px;display:block;border:1px solid var(--ln)}
+.big{font-size:1.125rem}
+.sy{margin:0 0 16px;line-height:1.5}
+.ab{display:flex;gap:10px}
+.ab button{flex:1;background:#000;border:none;padding:9px 0}
+.ab button.on{background:var(--cr);color:#272727}
+.empty{color:var(--mu);padding:24px 0;text-align:center}
+.hint{font-size:.8125rem;color:var(--mu);margin:0 0 8px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.note{color:var(--mu);font-size:.75rem;margin-top:24px}
+dialog{background:#272727;color:var(--cr);border:1px solid var(--ln);border-radius:0;padding:0;width:calc(100% - 24px);max-width:520px;max-height:85vh}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.di{padding:16px}
+.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.dh b{font:400 15px var(--syn)}
 </style>
 </head>
 <body>
-<header><div class="hw"><div class="lg"><svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><circle cx="16" cy="16" r="13"/><circle cx="16" cy="8.6" r="2.4" fill="#fff" stroke="none"/><circle cx="22.4" cy="19.7" r="2.4" fill="#fff" stroke="none"/><circle cx="9.6" cy="19.7" r="2.4" fill="#fff" stroke="none"/><circle cx="16" cy="16" r="1.4" fill="#fff" stroke="none"/></svg><span>CineLX</span></div>
-<div class="mn"><button id="mb" aria-haspopup="menu" aria-expanded="false">Ações ▾</button>
-<div id="mp" role="menu" hidden><button data-x="wl">Letterboxd watchlist</button><button data-x="add">Adicionar sessão</button><button data-x="view" id="mv">Ver em lista</button></div></div></div></header>
 <div class="w">
-<div class="sub" id="sum"></div>
-<div class="ban" id="ban" hidden></div>
-
-<div class="f">
-<input class="full" id="q" type="search" placeholder="Procurar filme…">
-<select id="fv"></select>
-<select id="fk"></select>
-</div>
-<div class="chips" id="chips"></div>
-
+<header>
+<div class="lg"><div class="st">★★★★★</div><div class="wm">cineLX</div></div>
+<div class="mn"><button id="mb" aria-label="Ações" aria-haspopup="menu" aria-expanded="false"><span>+</span></button>
+<div id="mp" role="menu" hidden><button data-x="i" id="mi"></button><button data-x="b" id="mc"></button><button data-x="wl" id="mw"></button><button data-x="add">Adicionar sessão</button><button data-x="view" id="mv"></button></div></div>
+</header>
+<div class="pill" id="sum">A carregar…</div>
+<input id="q" type="search" placeholder="Procurar filmes…" style="margin-bottom:8px">
+<div class="f"><select id="fv"></select><select id="fk"></select></div>
 <div id="cal"></div>
 <div id="list"></div>
-
-
-
-<div class="note">Os estados, as sessões adicionadas e a watchlist ficam guardados só neste browser. Não são partilhados entre telemóvel e computador.</div>
+<div class="note">Estados, sessões adicionadas e watchlist ficam guardados só neste browser.</div>
 </div>
 
-<dialog id="dw"><div class="di"><div class="dh"><b>Letterboxd watchlist</b><button data-close>Fechar</button></div>
-<p class="v" style="margin:0 0 8px">No Letterboxd: Definições → Dados → Exportar dados. Escolhe aqui o ficheiro <b>watchlist.csv</b> (já fora do zip). Importar de novo substitui a lista anterior.</p>
+<dialog id="dd"><div class="di"><div class="dh"><span></span><button data-close>fechar</button></div><div id="ddb"></div></div></dialog>
+<dialog id="dl"><div class="di"><div class="dh"><b id="dlt"></b><button data-close>fechar</button></div><div id="dlb"></div></div></dialog>
+<dialog id="dw"><div class="di"><div class="dh"><b>Letterboxd watchlist</b><button data-close>fechar</button></div>
+<p class="hint">No Letterboxd: Definições → Dados → Exportar dados. Escolhe aqui o ficheiro <b>watchlist.csv</b> (já fora do zip). Importar de novo substitui a lista anterior.</p>
 <input type="file" id="wf">
-<p class="v" style="margin:10px 0 4px">Se não conseguires escolher o ficheiro, abre o <b>watchlist.csv</b>, copia tudo e cola aqui:</p>
-<textarea id="wt" rows="4" style="width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit"></textarea>
+<p class="hint" style="margin-top:12px">Se não conseguires escolher o ficheiro, abre o watchlist.csv, copia tudo e cola aqui:</p>
+<textarea id="wt" rows="4"></textarea>
 <div class="row"><button id="wp">Importar texto colado</button></div>
-<div class="row"><span class="v" id="wc"></span><button id="wx" hidden>Limpar</button></div></div></dialog>
-<dialog id="da"><div class="di"><div class="dh"><b>Adicionar sessão</b><button data-close>Fechar</button></div>
-<div class="f"><input class="full" id="nt" placeholder="Título do filme"><input id="ny" type="number" placeholder="Ano (opcional)"><select id="nv"></select><input id="nd" type="date"><input id="nh" type="time" value="21:00"><button class="full" id="na">Adicionar</button></div></div></dialog>
+<div class="row"><span class="hint" id="wc"></span><button id="wx" hidden>Limpar</button></div></div></dialog>
+<dialog id="da"><div class="di"><div class="dh"><b>Adicionar sessão</b><button data-close>fechar</button></div>
+<div class="f"><input class="full" id="nt" placeholder="Título do filme"><input id="ny" type="number" placeholder="Ano (opcional)"><select id="nv"></select><input id="nd" type="date"><input id="nh" type="time" value="21:00"><button class="full on" id="na">Adicionar</button></div></div></dialog>
+
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ls={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-
-const VENUES=[
-["Nimas","Sala"],["Cinemateca","Sala"],["Cinema Ideal","Sala"],["Cinema City Campo Pequeno","Sala"],["Cinema City Alvalade","Sala"],["UCI El Corte Inglés","Sala"],["Cinema Fernando Lopes","Sala"],["Cinema São Jorge","Sala"],
-["Queer Lisboa","Festival"],["DocLisboa","Festival"],["Leffest","Festival"],["IndieLisboa","Festival"],["Festival Italiano","Festival"],["Festival Francês","Festival"],["MotelX","Festival"],["MONSTRA","Festival"],["Tribeca Festival Lisboa","Festival"],
-["ZDB (ciclos)","Ciclo"],["Cineconchas (ciclos)","Ciclo"],["Alvalade Cineclube","Cineclube"],["Black Cat Cinema","Ar livre"]];
+const SI="\u2736\u22C6",SB="\u270C\uFE0E\u32E1",SW="\u{13154}";
+const VENUES=[["Nimas","Sala"],["Cinemateca","Sala"],["Cinema Ideal","Sala"],["Cinema City Campo Pequeno","Sala"],["Cinema City Alvalade","Sala"],["UCI El Corte Inglés","Sala"],["Cinema Fernando Lopes","Sala"],["Cinema São Jorge","Sala"],["Queer Lisboa","Festival"],["DocLisboa","Festival"],["Leffest","Festival"],["IndieLisboa","Festival"],["Festival Italiano","Festival"],["Festival Francês","Festival"],["MotelX","Festival"],["MONSTRA","Festival"],["Tribeca Festival Lisboa","Festival"],["ZDB (ciclos)","Ciclo"],["Cineconchas (ciclos)","Ciclo"],["Alvalade Cineclube","Cineclube"],["Black Cat Cinema","Ar livre"]];
 const KIND=Object.fromEntries(VENUES);
-
-const iso=d=>{const z=new Date(d.getTime()-d.getTimezoneOffset()*6e4);return z.toISOString().slice(0,10)};
+const iso=d=>new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
 const today=iso(new Date());
-
-let st=ls.get("cl_st",{}),wl=ls.get("cl_wl",[]),custom=ls.get("cl_custom",[]),remote=[],upd="",loadErr="",chip="all";
+let st=ls.get("cl_st",{}),wl=ls.get("cl_wl",[]),custom=ls.get("cl_custom",[]),remote=[],upd="",loadErr="",view=ls.get("cl_view2","cal"),selDay=today,mon=today.slice(0,7),openList="",films={},openDet="";
 const norm=s=>String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
 const inWl=s=>wl.some(w=>w[0]===norm(s.title)&&(!w[1]||!s.year||w[1]==s.year));
 const all=()=>remote.concat(custom);
+const byTime=(a,b)=>(a.date+a.time).localeCompare(b.date+b.time);
+const marked=x=>all().filter(s=>s.date>=today&&st[s.id]===x).sort(byTime);
+const fmtDay=d=>new Date(d+"T12:00").toLocaleDateString("pt-PT",{weekday:"long",day:"numeric",month:"long"});
 
-// filtros
 const fv=$("#fv"),fk=$("#fk"),nv=$("#nv");
 fv.innerHTML='<option value="">Todos os locais</option>'+VENUES.map(v=>`<option>${esc(v[0])}</option>`).join("");
 nv.innerHTML=VENUES.map(v=>`<option>${esc(v[0])}</option>`).join("");
 fk.innerHTML='<option value="">Todos os tipos</option>'+[...new Set(VENUES.map(v=>v[1]))].map(k=>`<option>${k}</option>`).join("");
 $("#nd").value=today;
 
-const CH=[["all","Todas"],["i","✶⋆ Interesse"],["b","✌︎㋡ Comprei"],["w","𓅔 Watchlist"]];
-function drawChips(){$("#chips").innerHTML=CH.map(c=>`<button data-c="${c[0]}" class="${chip===c[0]?"on":""}">${c[1]}</button>`).join("")}
 
-let view=ls.get("cl_view2","cal"),selDay=today,mon=today.slice(0,7);
+function cards(list,hdr){
+  let h="",last="";
+  for(const s of list){
+    if(hdr&&s.date!==last){last=s.date;h+=`<div class="day">${fmtDay(s.date)}</div>`}
+    const x=st[s.id]||"";
+    h+=`<article class="c" data-id="${s.id}"><div class="t">${s.time}</div><div class="m"><div class="n">${esc(s.title)}</div>${s.year?`<div class="y">(${s.year})</div>`:""}<div class="v">${esc(s.venue)}${s.note?" · "+esc(s.note):""}</div>${inWl(s)?`<span class="bw">${SW} watchlist</span>`:""}</div>
+<div class="a"><button class="${x==="i"?"on":""}" data-a="i" data-id="${s.id}">interesse${x==="i"?" ✓":""}</button><button class="${x==="b"?"on":""}" data-a="b" data-id="${s.id}">comprei${x==="b"?" ✓":""}</button>${s.id[0]==="u"?`<button class="x" data-a="d" data-id="${s.id}">remover</button>`:""}</div></article>`;
+  }
+  return h;
+}
+
 function drawCal(items){
   const by={};items.forEach(s=>{(by[s.date]=by[s.date]||[]).push(s)});
-  const [Y,M]=mon.split("-").map(Number),first=new Date(Y,M-1,1),n=new Date(Y,M,0).getDate(),off=(first.getDay()+6)%7;
-  let h=`<div class="cn"><button data-m="-1">‹</button><b>${first.toLocaleDateString("pt-PT",{month:"long",year:"numeric"})}</b><button data-m="1">›</button></div><div class="cg">`+["S","T","Q","Q","S","S","D"].map(d=>`<i>${d}</i>`).join("");
-  for(let i=0;i<off;i++)h+="<span></span>";
-  for(let d=1;d<=n;d++){
-    const ds=`${Y}-${String(M).padStart(2,"0")}-${String(d).padStart(2,"0")}`,a=by[ds]||[];
-    const dots=(a.some(s=>st[s.id]==="b")?'<u class="gb"></u>':"")+(a.some(s=>st[s.id]==="i")?'<u class="gi"></u>':"")+(a.some(s=>inWl(s))?'<u class="gw"></u>':"");
-    h+=`<button class="cd${ds===selDay?" sel":""}${ds===today?" td":""}" data-d="${ds}"${ds<today?" disabled":""}><span>${d}</span><small>${a.length||""}</small><em>${dots}</em></button>`;
+  const [Y,M]=mon.split("-").map(Number),first=new Date(Y,M-1,1),n=new Date(Y,M,0).getDate(),off=(first.getDay()+6)%7,tot=Math.ceil((off+n)/7)*7;
+  const name=first.toLocaleDateString("pt-PT",{month:"long"})+(Y!==+today.slice(0,4)?" "+Y:"");
+  let h=`<div class="cn"><button data-m="-1" aria-label="Mês anterior">&lt;</button><b>${name}</b><button data-m="1" aria-label="Mês seguinte">&gt;</button></div><div class="cg">`+["S","T","Q","Q","S","S","D"].map(d=>`<i>${d}</i>`).join("");
+  for(let i=0;i<tot;i++){
+    const d=new Date(Y,M-1,1-off+i),ds=iso(d),out=d.getMonth()!==M-1,a=by[ds]||[];
+    const mk=!out&&a.some(s=>inWl(s))?"\u2605":"";
+    h+=`<button class="cd${out?" out":""}${ds===selDay&&!out?" sel":""}${ds===today?" td":""}${mk?" wl":""}" data-d="${ds}"${out?" disabled":""}><span>${d.getDate()}</span><em>${mk}</em></button>`;
   }
-  $("#cal").innerHTML=h+`</div><div class="v" style="margin-bottom:4px"><u class="gb" style="display:inline-block"></u> comprei · <u class="gi" style="display:inline-block"></u> interesse · <u class="gw" style="display:inline-block"></u> watchlist</div>`;
+  $("#cal").innerHTML=h+"</div>";
 }
+
+function drawList(){
+  if(!openList)return;
+  $("#dlt").textContent=openList==="i"?"Interesses":"Bilhetes comprados";
+  $("#dlb").innerHTML=cards(marked(openList),true)||'<div class="empty">Ainda não marcaste nenhuma sessão.</div>';
+}
+
+function drawDet(){
+  if(!openDet)return;
+  const s=all().find(x=>x.id===openDet);if(!s){$("#dd").close();return}
+  const f=films[s.film]||{},x=st[s.id]||"";
+  $("#ddb").innerHTML=`<div class="pf">${f.poster?`<img class="ps" src="${esc(f.poster)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><div class="n big">${esc(s.title)}</div>${s.year?`<div class="y">(${s.year})</div>`:""}<div class="v">${fmtDay(s.date)}, ${s.time}</div><div>${esc(s.venue)}${s.note?" · "+esc(s.note):""}</div>${inWl(s)?`<span class="bw">${SW} watchlist</span>`:""}</div></div>`+
+  (f.summary?`<p class="sy">${esc(String(f.summary).slice(0,500))}</p>`:'<p class="hint" style="margin-bottom:16px">Sem sinopse disponível.</p>')+
+  `<div class="ab"><button class="${x==="i"?"on":""}" data-a="i" data-id="${s.id}">interesse${x==="i"?" ✓":""}</button><button class="${x==="b"?"on":""}" data-a="b" data-id="${s.id}">comprei${x==="b"?" ✓":""}</button></div>`;
+}
+
 function render(){
   const q=norm($("#q").value),v=fv.value,k=fk.value;
   const items=all().filter(s=>s.date>=today).filter(s=>
-    (!q||norm(s.title).includes(q))&&(!v||s.venue===v)&&(!k||KIND[s.venue]===k)&&
-    (chip==="all"||(chip==="w"?inWl(s):st[s.id]===chip))
-  ).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+    (!q||norm(s.title).includes(q))&&(!v||s.venue===v)&&(!k||KIND[s.venue]===k)
+  ).sort(byTime);
   let list=items;
   if(view==="cal"){drawCal(items);list=items.filter(s=>s.date===selDay)}else $("#cal").innerHTML="";
-  let h="",last="";
-  for(const s of list){
-    if(s.date!==last){last=s.date;h+=`<div class="day">${new Date(s.date+"T12:00").toLocaleDateString("pt-PT",{weekday:"long",day:"numeric",month:"long"})}</div>`}
-    const x=st[s.id]||"";
-    h+=`<article class="c ${x}"><div class="t">${s.time}</div><div class="m"><div class="n">${esc(s.title)}${s.year?` <span class="y">(${s.year})</span>`:""}</div>
-    <div class="v">${esc(s.venue)} · ${KIND[s.venue]||""}${s.note?" · "+esc(s.note):""}</div>
-    ${inWl(s)?'<span class="bd bw">𓅔 Watchlist</span>':""}</div>
-    <div class="a"><button class="si ${x==="i"?"on":""}" data-a="i" data-id="${s.id}">✶⋆ Interesse</button>
-    <button class="sb ${x==="b"?"on":""}" data-a="b" data-id="${s.id}">✌︎㋡ Comprei</button>
-    ${s.id[0]!=="u"?"":`<button class="x" data-a="d" data-id="${s.id}">remover</button>`}</div></article>`;
-  }
-  $("#list").innerHTML=h||'<div class="empty">Nenhuma sessão '+(view==="cal"?"neste dia":"com estes filtros")+'.</div>';
-  const vals=Object.entries(st).filter(([id])=>all().some(s=>s.id===id));
-  $("#sum").textContent=`${all().filter(s=>s.date>=today).length} sessões · ${vals.filter(e=>e[1]==="i").length} interesse · ${vals.filter(e=>e[1]==="b").length} comprei`;
-  $("#ban").hidden=!upd&&!loadErr;$("#ban").textContent=loadErr||("Sessões atualizadas em "+new Date(upd).toLocaleString("pt-PT",{dateStyle:"short",timeStyle:"short"}));
+  const body=cards(list,view!=="cal");
+  $("#list").innerHTML=(view==="cal"?`<div class="day">${fmtDay(selDay)}</div>`:"")+(body||`<div class="empty">Nenhuma sessão ${view==="cal"?"neste dia":"com estes filtros"}.</div>`);
+  const total=all().filter(s=>s.date>=today).length;
+  $("#sum").textContent=loadErr||(upd?`${total} sessões · atualizadas a ${new Date(upd).toLocaleString("pt-PT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).replace(":","h")}`:"A carregar…");
+  $("#mi").textContent=`${SI} Interesses (${marked("i").length})`;
+  $("#mc").textContent=`${SB} Bilhetes comprados (${marked("b").length})`;
+  $("#mw").textContent=`${SW} Letterboxd watchlist`;
+  $("#mv").textContent=view==="cal"?"Ver em lista":"Ver em calendário";
   $("#wc").textContent=wl.length?`${wl.length} filmes importados`:"";$("#wx").hidden=!wl.length;
-  drawChips();$("#mv").textContent=view==="cal"?"Ver em lista":"Ver em calendário";
+  drawList();drawDet();
 }
 
-// eventos
-$("#list").addEventListener("click",e=>{
-  const b=e.target.closest("button[data-a]");if(!b)return;const id=b.dataset.id,a=b.dataset.a,cur=st[id];
+// ações nos cartões (lista principal e janelas)
+const act=e=>{
+  const b=e.target.closest("button[data-a]");
+  if(!b){const c=e.target.closest("article[data-id]");if(c){openDet=c.dataset.id;drawDet();$("#dd").showModal()}return}
+  const id=b.dataset.id,a=b.dataset.a,cur=st[id];
   if(a==="i"){cur==="i"?delete st[id]:st[id]="i"}
   else if(a==="b"){st[id]=cur==="b"?"i":"b"}
   else if(a==="d"){custom=custom.filter(s=>s.id!==id);delete st[id];ls.set("cl_custom",custom)}
   ls.set("cl_st",st);render();
-});
+};
+$("#list").addEventListener("click",act);
+$("#dlb").addEventListener("click",act);
+$("#ddb").addEventListener("click",act);
 $("#cal").addEventListener("click",e=>{
   const b=e.target.closest("button");if(!b)return;
   if(b.dataset.d){selDay=b.dataset.d}
   else if(b.dataset.m){const [Y,M]=mon.split("-").map(Number),nd=new Date(Y,M-1+ +b.dataset.m,1);mon=`${nd.getFullYear()}-${String(nd.getMonth()+1).padStart(2,"0")}`}
   render();
 });
+["#q","#fv","#fk"].forEach(s=>$(s).addEventListener("input",render));
+
+// menu +
 const mb=$("#mb"),mp=$("#mp"),menu=o=>{mp.hidden=!o;mb.setAttribute("aria-expanded",o)};
 mb.onclick=e=>{e.stopPropagation();menu(mp.hidden)};
 document.addEventListener("click",e=>{if(!e.target.closest("#mp"))menu(false)});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")menu(false)});
 mp.addEventListener("click",e=>{
-  const b=e.target.closest("button");if(!b)return;menu(false);
-  if(b.dataset.x==="wl")$("#dw").showModal();
-  else if(b.dataset.x==="add")$("#da").showModal();
+  const b=e.target.closest("button");if(!b)return;menu(false);const x=b.dataset.x;
+  if(x==="i"||x==="b"){openList=x;drawList();$("#dl").showModal()}
+  else if(x==="wl")$("#dw").showModal();
+  else if(x==="add")$("#da").showModal();
   else{view=view==="cal"?"list":"cal";ls.set("cl_view2",view);render()}
 });
 document.querySelectorAll("dialog").forEach(d=>d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()}));
-$("#chips").addEventListener("click",e=>{const b=e.target.closest("button");if(b){chip=b.dataset.c;render()}});
-["#q","#fv","#fk"].forEach(s=>$(s).addEventListener("input",render));
+$("#dl").addEventListener("close",()=>{openList=""});
+$("#dd").addEventListener("close",()=>{openDet=""});
+
+// adicionar sessão
 $("#na").onclick=()=>{
   const t=$("#nt").value.trim(),d=$("#nd").value;if(!t||!d)return;
   custom.push({id:"u"+Date.now(),title:t,year:+$("#ny").value||"",venue:nv.value,date:d,time:$("#nh").value||"20:00"});
   ls.set("cl_custom",custom);$("#nt").value="";$("#ny").value="";$("#da").close();render();
 };
 
-// CSV Letterboxd
+// watchlist Letterboxd
 function parseCSV(t){const r=[];let row=[],f="",q=false;
   for(let i=0;i<t.length;i++){const c=t[i];
     if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++}else q=false}else f+=c}
@@ -224,7 +259,10 @@ $("#wp").onclick=()=>loadWl($("#wt").value);
 $("#wx").onclick=()=>{wl=[];ls.set("cl_wl",wl);$("#wf").value="";render()};
 
 render();
-fetch("sessions.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{remote=d.sessions||[];upd=d.updated||"";render()}).catch(()=>{loadErr="Não consegui carregar as sessões (sessions.json).";render()});
+Promise.all([
+  fetch("sessions.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}),
+  fetch("films.json",{cache:"no-store"}).then(r=>r.ok?r.json():{}).catch(()=>({}))
+]).then(([d,f])=>{remote=d.sessions||[];upd=d.updated||"";films=f||{};render()}).catch(()=>{loadErr="Não consegui carregar as sessões (sessions.json).";render()});
 </script>
 </body>
 </html>
