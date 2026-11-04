@@ -200,14 +200,8 @@
  "bad girl": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161822.jpg?v=1"
  },
- "o ah das coisas o som da terra a tremer": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161720.jpg?v=2"
- },
  "after tomorrow": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161828.jpg?v=1"
- },
- "shadow of a doubt": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161721.jpg?v=2"
  },
  "fragil como o mundo": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161722.jpg?v=2"
@@ -440,28 +434,64 @@
   "tried": "2026-10-30",
   "summary": "Georges (Jean-Louis Trintignant) et Anne (Emmanuelle Riva) são um casal de octagenários, pessoas cultas, professores de música reformados. A filha de ambos, igualmente artista, vive no estrangeiro com a família. Um dia, Anne tem um acidente que a deixa debilitada e o amor que une este casal sofre uma rude prova."
  },
- "duas estacoes dois desconhecidos": {
-  "poster": "https://filmspot.com.pt/images/filmes/posters/1462735_pt.jpg",
-  "page": "https://filmspot.pt/filme/tabi-to-hibi-1462735/",
-  "tried": "2026-10-30",
-  "summary": "É verão numa cidade costeira. Nagisa e Natsuo trocam palavras desconfortáveis perante o oceano azul. No inverno, a argumentista Li, visita uma aldeia coberta de neve, onde encontra uma pensão gerida pelo solitário Benzo. Com uma lembrança deixada pelo seu mentor, Li embarca numa viagem que dissolve as fronteiras entre realidade e memória. Momentos de surpresa, encontros lúdicos e breves ligações ecoam ao longo de duas estações que entrelaçam a vida de estranhos através das paisagens do verão e…"
- },
- "nada a esconder": {
-  "poster": "https://filmspot.com.pt/images/filmes/posters/445.jpg",
-  "page": "https://filmspot.pt/filme/cache-445/",
-  "tried": "2026-10-30",
-  "summary": "Georges, jornalista, recebe vídeos, filmados clandestinamente a partir da rua, em que aparece com a família, assim como desenhos perturbadores e difíceis de interpretar, e não faz a menor ideia da identidade do remetente. Pouco a pouco, o conteúdo das cassetes vai-se tornando cada vez mais pessoal, o que o leva a pensar que o autor o conhece há muito tempo. Georges sente que uma ameaça paira sobre si e sobre a sua família mas, como não é explícita, a polícia recusa-se a ajudá-lo..."
- },
  "a filha do engano": {
   "poster": "https://filmspot.com.pt/images/filmes/posters/48849.jpg",
   "page": "https://filmspot.pt/filme/la-hija-del-engano-48849/",
   "tried": "2026-11-01",
   "summary": "Don Quintin é um caixeiro-viajante amargo e frustrado. Um dia surpreende a mulher com o amante, expulsa-a de casa, não sem que antes esta lhe confesse que a filha, Marta, não é dele. Don Quintin abandona Marta à sua sorte, até que Lencho, um bêbedo, a recolhe. Definitivamente decepcionado com a vida, Don Quintin abre um cabaret chamado \"O Inferno\", e torna-se num patrão desapiedado. Entretanto, a sua ex-mulher, pouco antes de morrer, diz-lhe que mentiu e que, afinal, Marta é mesmo sua filha…"
  },
- "susana": {
-  "poster": "https://filmspot.com.pt/images/filmes/posters/44655.jpg",
-  "page": "https://filmspot.pt/filme/susana-44655/",
-  "tried": "2026-11-01",
-  "summary": "Susana, reclusa numa prisão de mulheres, evade-se por um milagre e chega, numa noite de tempestade, a uma quinta, onde lhe oferecem emprego como doméstica. Susana seduz, simultaneamente, o chefe de família, o seu filho Alberto, e o contramestre Jesús. O pai gostaria de a ver continuar na quinta, ocupando o lugar da sua mulher, enquanto os outros dois preferiam fugir com ela. Ciumento, o pai despede Jesús. Este, sabendo que a polícia procura uma mulher foragida, denuncia Susana. Susana é presa…"
+ "a bola negra": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1422041_pt.jpg",
+  "page": "https://filmspot.pt/filme/la-bola-negra-1422041/",
+  "tried": "2026-11-04",
+  "summary": "Passado em três épocas da história recente de Espanha - em 1932 durante a República, na Guerra Civil de 1937 e na Espanha contemporânea de 2017 - o filme acompanha um conjunto de vidas interligadas, centradas em três jovens homens, cujos ecos emocionais e políticos se vão revelando gradualmente. Prémio de melhor realização no Festival de Cannes 2026."
+ },
+ "a ovelha chone trapalhada na quinta": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1477104_pt.jpg",
+  "page": "https://filmspot.pt/filme/shaun-the-sheep-the-beast-of-mossy-bottom-1477104/",
+  "tried": "2026-11-04",
+  "summary": "É véspera de Halloween na quinta, mas a excitação transforma-se em desânimo quando o desajeitado Agricultor destrói a plantação de abóboras. A Ovelha Choné tenta reparar os estragos com experiências científicas, mas tudo corre mal quando uma criatura selvagem aparece na floresta."
+ },
+ "ari": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1256192_pt.jpg",
+  "page": "https://filmspot.pt/filme/ari-1256192/",
+  "tried": "2026-11-04",
+  "summary": "Em plena visita de um inspetor escolar, Ari, um professor estagiário de 27 anos, sofre um colapso. Convencido de que o filho é um falhado, o pai expulsa-o de casa. Emocionalmente fragilizado e sozinho na cidade, Ari vê-se obrigado a reatar, contra vontade, o contacto com antigos amigos. À medida que as recordações dos meses anteriores surgem e se dissipam, percebe que os outros também enfrentam as suas próprias dificuldades e que, talvez, tenha vivido a sua própria vida em piloto automático."
+ },
+ "o gato do chapeu": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1117898_pt.jpg",
+  "page": "https://filmspot.pt/filme/the-cat-in-the-hat-1117898/",
+  "tried": "2026-11-04",
+  "summary": "O Gato enfrenta a sua missão mais difícil ao serviço do I.I.I.I. (Instituto para a Instituição da Imaginação e Inspiração, Lda.). Terá de animar Gabby e Sebastian, dois irmãos em luta por se adaptarem à mudança para uma nova cidade. Conhecido por levar tudo ao limite, esta pode ser a última oportunidade deste agente do caos para provar o seu valor… ou perder o seu chapéu mágico!"
+ },
+ "trapalhoes": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1470334_pt.jpg",
+  "page": "https://filmspot.pt/filme/allez-hepp-hopp-hopp-1470334/",
+  "tried": "2026-11-04",
+  "summary": "Holly vive escondida num velho farol com o seu irmão Peat. Enquanto Peat teme sair à rua e enfrentar novos perigos, Holly sonha descobrir o mundo. Um dia, decide partir numa aventura, mas acaba perseguida por uma gata que a confunde com um rato gigante com espinhos. Ao tentar fugir, Holly cruza-se com Walter, um coelho exausto pela vida familiar que a salva de um acidente. No entanto, Walter sofre uma pancada e perde a memória, passando a acreditar que é um herói destemido. Para Holly, esta é…"
+ },
+ "you can see everything": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1765072_pt.jpg",
+  "page": "https://filmspot.pt/filme/you-can-see-everything-1765072/",
+  "tried": "2026-11-04",
+  "summary": "Em 2003, a empresária norte-americana Elizabeth Holmes fundou a Theranos, uma empresa de biotecnologia que prometia revolucionar as análises clínicas através de uma tecnologia capaz de realizar numerosos testes a partir de algumas gotas de sangue. A Theranos atraiu centenas de milhões de dólares em investimentos e chegou a ser avaliada em cerca de 9 mil milhões de dólares. Porém, a tecnologia não funcionava como anunciado e, em 2022, Holmes foi condenada a 11 anos de prisão por fraude. Trinta…"
+ },
+ "a ilha esquecida": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1465063_pt.jpg",
+  "page": "https://filmspot.pt/filme/forgotten-island-1465063/",
+  "tried": "2026-11-04",
+  "summary": "Jo e Raissa encontram-se presas no mundo fantástico da ilha esquecida de Nakali. Descobrem que a única forma de regressarem a casa poderá custar-lhes uma vida inteira de memórias e emoções."
+ },
+ "george michael the faith tour": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1649403_pt.jpg",
+  "page": "https://filmspot.pt/filme/george-michael-the-faith-tour-1649403/",
+  "tried": "2026-11-04",
+  "summary": "George Michael foi uma das estrelas mais influentes da sua geração. O documentário \"George Michael: The Faith Tour\" reúne imagens em película de 35 mm, redescobertas, ou nunca vistas, da sua atuação em 1988 no Palais Omnisports de Paris-Bercy. Um filme-concerto que regista George no auge da sua criatividade, durante a digressão \"Faith\". O documentário é antecedido por uma curta-metragem onde Mary McCartney recorre a imagens e gravações áudio recentemente descobertas, datadas de 1986 a 1988. O…"
+ },
+ "ramayana a ascensao de uma lenda": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/656908_pt.jpg",
+  "page": "https://filmspot.pt/filme/ramayana-rise-of-a-legend-656908/",
+  "tried": "2026-11-04",
+  "summary": "Uma profecia entrelaça a história de Rama, um príncipe marcado pelo sacrifício; e de Ravana, um rei imortal movido pela vingança."
  }
 }
