@@ -185,14 +185,8 @@
  "splendor in the grass": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161744.jpg?v=2"
  },
- "dois e um gato altar": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161748.jpg?v=1"
- },
  "man 34 s castle": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161837.jpg?v=2"
- },
- "das tagebuch einer verlorenen": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161926.jpg?v=1"
  },
  "jogo de mao": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161897.jpg?v=1"
@@ -457,5 +451,29 @@
   "page": "https://filmspot.pt/filme/rammstein-live-in-mexico-city-1778092/",
   "tried": "2026-11-05",
   "summary": "Filme-concerto registado durante três noites com lotação esgotados no Foro Sol, na Cidade do México, com capacidade para 65 mil pessoas, captura uma das apresentações mais marcantes da digressão da banda alemã."
+ },
+ "silvestre": {
+  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz162338.jpg?v=1"
+ },
+ "villa mauresque": {
+  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz162340.jpg?v=1"
+ },
+ "dracula": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1323409_pt.jpg",
+  "page": "https://filmspot.pt/filme/dracula-1323409/",
+  "tried": "2026-11-06",
+  "summary": "Um filme do Drácula feito na Transilvânia. O que contém? Uma caça aos vampiros. Mortos-vivos e o Drácula a romper uma greve. História de ficção científica sobre o regresso de Vlad, o Empalador. Adaptação da primeira novela romena sobre vampiros. Uma história de amor. Um filme de montagem que reutiliza o filme clássico de vampiros. Um conto popular vulgar. Histórias kitsch geradas por IA."
+ },
+ "nosso segredo": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1399253_pt.jpg",
+  "page": "https://filmspot.pt/filme/nosso-segredo-1399253/",
+  "tried": "2026-11-06",
+  "summary": "Uma família tenta reconstruir a rotina após uma perda recente. Enquanto cada um foge do luto à sua maneira, o filho mais novo guarda um segredo capaz de fazê-los enfrentar a dor."
+ },
+ "o meu pais imaginario": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/958496_pt.jpg",
+  "page": "https://filmspot.pt/filme/mi-pais-imaginario-958496/",
+  "tried": "2026-11-06",
+  "summary": "Documentário sobre os protestos nas ruas de Santiago do Chile em 2019. A população exigia mais democracia e igualdade social em matéria de educação, saúde e oportunidades de emprego."
  }
 }
