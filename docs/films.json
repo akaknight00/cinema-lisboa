@@ -161,9 +161,6 @@
  "midaregumo": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161718.jpg?v=2"
  },
- "young america": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161833.jpg?v=2"
- },
  "niagara": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161742.jpg?v=2"
  },
@@ -181,12 +178,6 @@
  },
  "les deux anglaises et le continent": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161757.jpg?v=1"
- },
- "die marquise von o": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161761.jpg?v=1"
- },
- "den goda viljan": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161930.jpg?v=1"
  },
  "the vanishing virginian": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161855.jpg?v=1"
@@ -368,12 +359,6 @@
   "tried": "2026-11-05",
   "summary": "Um conjunto de personagens atravessa momentos de rutura, em que nada é o que imaginaram ser. Entre leveza, humor e profundidade filosófica, emergem questões sociais contemporâneas e um olhar renovado sobre a efemeridade da condição humana, interrogando o desconhecido, o diferente e o não normativo."
  },
- "carmen royal ballet and opera": {
-  "poster": "https://filmspot.com.pt/images/filmes/posters/1692752.jpg",
-  "page": "https://filmspot.pt/filme/carmen-royal-ballet-and-opera-1692752/",
-  "tried": "2026-11-05",
-  "summary": "Sob o calor opressivo do sol espanhol, a indomável Carmen desperta a atenção de Don José. Ela avisa-o para não se apaixonar por ela, mas a sua obsessão não conhece limites. A intensa encenação de Damiano Michieletto regressa ao palco, lançando uma luz incandescente sobre a luxúria, a violência e o desejo destrutivo da célebre ópera de Bizet. Um elenco de excelência dá vida a este drama arrebatador, com Ginger Costa-Jackson no papel de Carmen, ao lado de Russell Thomas como o ciumento e…"
- },
  "casa pequena": {
   "poster": "https://filmspot.com.pt/images/filmes/posters/1755625_pt.jpg",
   "page": "https://filmspot.pt/filme/casa-pequena-1755625/",
@@ -391,5 +376,35 @@
   "page": "https://filmspot.pt/filme/mi-pais-imaginario-958496/",
   "tried": "2026-11-06",
   "summary": "Documentário sobre os protestos nas ruas de Santiago do Chile em 2019. A população exigia mais democracia e igualdade social em matéria de educação, saúde e oportunidades de emprego."
+ },
+ "a praga": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1001405_pt.jpg",
+  "page": "https://filmspot.pt/filme/l-espece-explosive-1001405/",
+  "tried": "2026-11-11",
+  "summary": "No nordeste de França, agricultores e caçadores vivem em conflito. Os javalis, cada vez maiores e mais numerosos, destroem as colheitas. Brun, um produtor de cereais à beira da ruína, acaba por ceder à pressão e desaparece. Um ano depois, o agente Fulda e a psicóloga Stéphane investigam o caso. O que descobrem ultrapassa tudo o que imaginavam."
+ },
+ "cavalo selvagem nove": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/891621_pt.jpg",
+  "page": "https://filmspot.pt/filme/wild-horse-nine-891621/",
+  "tried": "2026-11-11",
+  "summary": "No Chile de 1973, pouco antes do golpe militar que derrubou o governo eleito, dois agentes da CIA, Chris (John Malkovich) e Lee (Sam Rockwell) são enviados de Santiago para a Ilha de Páscoa pelo chefe de serviço, MJ (Steve Buscemi). Entre as famosas estátuas da ilha, os parceiros de longa data navegam entre passados obscuros e conspirações do presente. Ao mesmo tempo, o encontro com duas estudantes progressistas (Mariana di Girolamo e Ailín Salas) inicia um embate psicológico repleto de…"
+ },
+ "ebenezer um conto de natal": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1567605_pt.jpg",
+  "page": "https://filmspot.pt/filme/ebenezer-1567605/",
+  "tried": "2026-11-11",
+  "summary": "Numa inesquecível véspera de Natal, Ebenezer Scrooge confronta-se com o passado, o presente e o futuro, numa viagem sobrenatural que irá determinar o seu destino."
+ },
+ "trapalhoes": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1470334_pt.jpg",
+  "page": "https://filmspot.pt/filme/allez-hepp-hopp-hopp-1470334/",
+  "tried": "2026-11-11",
+  "summary": "Holly vive escondida num velho farol com o seu irmão Peat. Enquanto Peat teme sair à rua e enfrentar novos perigos, Holly sonha descobrir o mundo. Um dia, decide partir numa aventura, mas acaba perseguida por uma gata que a confunde com um rato gigante com espinhos. Ao tentar fugir, Holly cruza-se com Walter, um coelho exausto pela vida familiar que a salva de um acidente. No entanto, Walter sofre uma pancada e perde a memória, passando a acreditar que é um herói destemido. Para Holly, esta é…"
+ },
+ "you can see everything": {
+  "poster": "https://filmspot.com.pt/images/filmes/posters/1765072_pt.jpg",
+  "page": "https://filmspot.pt/filme/you-can-see-everything-1765072/",
+  "tried": "2026-11-11",
+  "summary": "Em 2003, a empresária norte-americana Elizabeth Holmes fundou a Theranos, uma empresa de biotecnologia que prometia revolucionar as análises clínicas através de uma tecnologia capaz de realizar numerosos testes a partir de algumas gotas de sangue. A Theranos atraiu centenas de milhões de dólares em investimentos e chegou a ser avaliada em cerca de 9 mil milhões de dólares. Porém, a tecnologia não funcionava como anunciado e, em 2022, Holmes foi condenada a 11 anos de prisão por fraude. Trinta…"
  }
 }
