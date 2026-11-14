@@ -146,9 +146,6 @@
  "la vie de boheme": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161765.jpg?v=1"
  },
- "panic inthe streets": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161931.jpg?v=1"
- },
  "okraina": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161767.jpg?v=1"
  },
@@ -382,5 +379,8 @@
   "page": "https://filmspot.pt/filme/how-to-rob-a-bank-1437511/",
   "tried": "2026-11-12",
   "summary": "Um grupo de assaltantes de bancos particularmente astutos partilha os seus golpes nas redes sociais enquanto consegue escapar às autoridades, transformando cada assalto num espetáculo acompanhado em tempo real."
+ },
+ "secrets": {
+  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161841.jpg?v=3"
  }
 }
