@@ -1,54 +1,6 @@
 {
- "updated": "2026-11-19T15:20+00:00",
+ "updated": "2026-11-20T14:58+00:00",
  "sessions": [
-  {
-   "date": "2026-11-19",
-   "time": "15:30",
-   "title": "The Vanishing Virginian",
-   "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188192-frank_borzage_the_vanishing_virginian-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "7aba2673b8",
-   "film": "the vanishing virginian"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "18:30",
-   "title": "A Divina Comédia",
-   "year": "",
-   "note": "Paulo Branco",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188247-paulo_branco_a_divina_comedia-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "abf9f32b70",
-   "film": "a divina comedia"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "19:30",
-   "title": "O Trio em Mi Bemol",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188107-rita_azevedo_gomes_o_trio_em_mi_bemol-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "6e782bee0f",
-   "film": "o trio em mi bemol"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "21:30",
-   "title": "Back Pay",
-   "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188220-frank_borzage_back_pay-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "977208d010",
-   "film": "back pay"
-  },
   {
    "date": "2026-11-20",
    "time": "15:30",
@@ -328,14 +280,14 @@
   {
    "date": "2026-11-26",
    "time": "15:30",
-   "title": "The Spanish Main",
+   "title": "On Dangerous Ground",
    "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188225-frank_borzage_the_spanish_main-cinemateca/",
+   "note": "Rita Azevedo Gomes",
+   "url": "https://www.bol.pt/Comprar/Bilhetes/188225-rita_azevedo_gomes_on_dangerous_ground-cinemateca/",
    "venue": "Cinemateca",
    "source": "cinemateca-bol",
-   "id": "3e03ba36a2",
-   "film": "the spanish main"
+   "id": "b4b501c6c6",
+   "film": "on dangerous ground"
   },
   {
    "date": "2026-11-26",

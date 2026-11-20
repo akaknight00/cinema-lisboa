@@ -44,15 +44,6 @@
  "okraina": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161767.jpg?v=1"
  },
- "a divina comedia": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161904.jpg?v=1"
- },
- "o trio em mi bemol": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161785.jpg?v=1"
- },
- "back pay": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161877.jpg?v=1"
- },
  "his butler 34 s sister": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161878.jpg?v=2"
  },
@@ -107,9 +98,6 @@
  "gora se ne bo premaknila": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161895.jpg?v=1"
  },
- "the spanish main": {
-  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161882.jpg?v=2"
- },
  "uma rapariga no verao": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161813.jpg?v=1"
  },
@@ -142,5 +130,8 @@
  },
  "villa mauresque": {
   "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz162340.jpg?v=1"
+ },
+ "on dangerous ground": {
+  "poster": "https://img.bol.pt/producao/imagens/espectaculos/cartaz161882.png?v=3"
  }
 }
