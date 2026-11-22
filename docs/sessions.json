@@ -1,66 +1,6 @@
 {
- "updated": "2026-11-21T14:18+00:00",
+ "updated": "2026-11-22T14:09+00:00",
  "sessions": [
-  {
-   "date": "2026-11-21",
-   "time": "14:30",
-   "title": "Mistérios de Lisboa",
-   "year": "",
-   "note": "Paulo Branco",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188336-paulo_branco_misterios_de_lisboa-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "d484fafab1",
-   "film": "misterios de lisboa"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "15:00",
-   "title": "Frozen - O Reino do Gelo",
-   "year": "",
-   "note": "Sábados em Família",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/185616-sabados_em_familia_frozen_o_reino_do_gelo-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "9be13da601",
-   "film": "frozen o reino do gelo"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "18:00",
-   "title": "On Dangerous Ground | A Colecção Invisível",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188135-rita_azevedo_gomes_on_dangerous_ground_a_coleccao_invisivel-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "14a8a0cd6d",
-   "film": "on dangerous ground a coleccao invisivel"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "21:00",
-   "title": "Nuestra Voz de Tierra, Memoria Y Futuro",
-   "year": "",
-   "note": "Doc&#34;s Kingdom 2026",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188243-doc_s_kingdom_2026_nuestra_voz_de_tierra_memoria_y_futuro-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "8337653121",
-   "film": "nuestra voz de tierra memoria y futuro"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "21:30",
-   "title": "Teatro e Cinema | Aus Dem Leben Der Marionetten",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188136-rita_azevedo_gomes_teatro_e_cinema_aus_dem_leben_der_marionetten-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "1439fba834",
-   "film": "teatro e cinema aus dem leben der marionetten"
-  },
   {
    "date": "2026-11-23",
    "time": "15:30",
