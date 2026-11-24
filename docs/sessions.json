@@ -1,54 +1,6 @@
 {
- "updated": "2026-11-23T17:30+00:00",
+ "updated": "2026-11-24T17:02+00:00",
  "sessions": [
-  {
-   "date": "2026-11-23",
-   "time": "18:30",
-   "title": "Odresitev Za Zacetnike",
-   "year": "",
-   "note": "Olhares da Eslovénia",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188229-olhares_da_eslovenia_odresitev_za_zacetnike-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "f47649c3ac",
-   "film": "odresitev za zacetnike"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "19:30",
-   "title": "Correspondências",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188138-rita_azevedo_gomes_correspondencias-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "6d8096026a",
-   "film": "correspondencias"
-  },
-  {
-   "date": "2026-11-23",
-   "time": "21:45",
-   "title": "Moja Vesna",
-   "year": "",
-   "note": "Olhares da Eslovévia",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188230-olhares_da_eslovevia_moja_vesna-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "cc0b67ecce",
-   "film": "moja vesna"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "15:30",
-   "title": "Saikaku Ichidai Onna",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188109-rita_azevedo_gomes_saikaku_ichidai_onna-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "5f8f9951fc",
-   "film": "saikaku ichidai onna"
-  },
   {
    "date": "2026-11-24",
    "time": "19:00",
