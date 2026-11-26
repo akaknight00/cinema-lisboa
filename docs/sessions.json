@@ -1,66 +1,6 @@
 {
- "updated": "2026-11-25T16:52+00:00",
+ "updated": "2026-11-26T16:29+00:00",
  "sessions": [
-  {
-   "date": "2026-11-25",
-   "time": "18:30",
-   "title": "The Vanishing Virginian",
-   "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/189147-frank_borzage_the_vanishing_virginian-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "cdc6f8b491",
-   "film": "the vanishing virginian"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "19:00",
-   "title": "Neobichainie Prikliuchenia Mistera Vesta Vb St",
-   "year": "",
-   "note": "Viagem ao Fim do Mudo",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188273-viagem_ao_fim_do_mudo_neobichainie_prikliuchenia_mistera_vesta_vb_st-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "6cba116ab4",
-   "film": "neobichainie prikliuchenia mistera vesta vb st"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "21:00",
-   "title": "Noites",
-   "year": "",
-   "note": "Paulo Branco",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188262-paulo_branco_noites-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "1a92de5c07",
-   "film": "noites"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "21:30",
-   "title": "Gora Se Ne Bo Premaknila",
-   "year": "",
-   "note": "Olhares da Eslovénia",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188239-olhares_da_eslovenia_gora_se_ne_bo_premaknila-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "73d09ec4c8",
-   "film": "gora se ne bo premaknila"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "15:30",
-   "title": "On Dangerous Ground",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188225-rita_azevedo_gomes_on_dangerous_ground-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "b4b501c6c6",
-   "film": "on dangerous ground"
-  },
   {
    "date": "2026-11-26",
    "time": "19:00",
