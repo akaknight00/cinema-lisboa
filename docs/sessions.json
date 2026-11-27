@@ -1,54 +1,6 @@
 {
- "updated": "2026-11-26T16:29+00:00",
+ "updated": "2026-11-27T16:15+00:00",
  "sessions": [
-  {
-   "date": "2026-11-26",
-   "time": "19:00",
-   "title": "Uma Rapariga no Verão",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188139-rita_azevedo_gomes_uma_rapariga_no_verao-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "fb957e8fb9",
-   "film": "uma rapariga no verao"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "19:30",
-   "title": "His Butler&#34;s Sister",
-   "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188223-frank_borzage_his_butler_s_sister-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "445c9d6f4c",
-   "film": "his butler 34 s sister"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "21:30",
-   "title": "Splendor In The Grass",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188060-rita_azevedo_gomes_splendor_in_the_grass-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "54ac6ccac6",
-   "film": "splendor in the grass"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "15:30",
-   "title": "La Vie de Bohème",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188081-rita_azevedo_gomes_la_vie_de_boheme-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "9210a24641",
-   "film": "la vie de boheme"
-  },
   {
    "date": "2026-11-27",
    "time": "19:00",
