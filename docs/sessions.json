@@ -1,42 +1,6 @@
 {
- "updated": "2026-11-27T16:15+00:00",
+ "updated": "2026-11-28T15:08+00:00",
  "sessions": [
-  {
-   "date": "2026-11-27",
-   "time": "19:00",
-   "title": "Aspern",
-   "year": "",
-   "note": "Paulo Branco",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188263-paulo_branco_aspern-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "62e8b47067",
-   "film": "aspern"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "19:30",
-   "title": "A Conquista de Faro | Fuck The Polis",
-   "year": "",
-   "note": "Rita Azevedo Gomes",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188140-rita_azevedo_gomes_a_conquista_de_faro_fuck_the_polis-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "5b34f64423",
-   "film": "a conquista de faro fuck the polis"
-  },
-  {
-   "date": "2026-11-27",
-   "time": "21:30",
-   "title": "Till We Meet Again",
-   "year": "",
-   "note": "Frank Borzage",
-   "url": "https://www.bol.pt/Comprar/Bilhetes/188227-frank_borzage_till_we_meet_again-cinemateca/",
-   "venue": "Cinemateca",
-   "source": "cinemateca-bol",
-   "id": "5306f18990",
-   "film": "till we meet again"
-  },
   {
    "date": "2026-11-28",
    "time": "15:00",
